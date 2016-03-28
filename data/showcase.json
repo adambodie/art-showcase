@@ -1,0 +1,34 @@
+[
+{
+    "title" : "Self-Portrait #1, Adam&apos;s the Name (I Look Bored)",
+    "image" : "img/adam.jpg",
+    "description" : "High school portrait",
+    "types" : "Portrait",
+    "color" : "Black & White", 
+    "medium" : "Pencil"
+},
+{
+    "title" : "Self-Portrait #5, Ready to look at my Painting (Always with a Blank Stare)",
+    "image" : "img/adam5.jpg",
+    "description" : "High school portrait",
+    "types" : "Portrait",
+    "color" : "Black & White", 
+    "medium" : "Acrylic Paint"
+},
+{
+    "title" : "Self Portrait # 6 (Impersonations of Karl Bruillov)",
+    "image" : "img/sp6.gif",
+    "description" : "This self portrait, I based it on a painting by Karl Bruillov, a Russian painter I have no idea who he is. I seem to be like a king in this painting and have that royal pose. I also did this portrait in a non rectangular format to see what it is like to do it that way and to make the portrait more king like",
+    "types" : "Portrait",
+    "color" : "Color", 
+    "medium" : "Acrylic Paint"
+},
+{
+    "title" : "Apple",
+    "image" : "img/apple.jpg",
+    "description" : "Apple",
+    "types" : "Landscape",
+    "color" : "Color", 
+    "medium" : "Colored Pencil"
+}
+]
