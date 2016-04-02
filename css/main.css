@@ -1,5 +1,5 @@
 body {
-  	background: url("../img/background.jpg") no-repeat top center fixed;	
+  	background: url("../img/background.jpg") no-repeat fixed;	
 	background-size: cover;
 	color: black;
 }
@@ -13,4 +13,40 @@ body {
 h1 {
 	text-align: center;
 	font-family: 'Frijole', cursive;
+}
+
+#menu {
+	display: inline-block;
+}
+
+#menu li {
+	list-style: none;
+	font-family: 'Frijole', cursive;
+	display: inline-block;
+}
+
+#menu a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.25em;
+}
+
+.top {
+	vertical-align: top;
+
+}
+
+.sub {
+	margin-left: -40px;
+	font-size: 0.75em;
+}
+
+.supersub {
+	width: 50px;
+	padding-left: 0;
+}
+.supersub li {
+	width: 50px;
+	font-size: 0.6em;
+	margin-left: 25px;
 }

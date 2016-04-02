@@ -19,10 +19,10 @@
             txt += "<li>"
             txt += "<a href='" + arr[i].image + "'data-imagelightbox='a'>" 
             txt += "<img src='" + arr[i].image 
-            txt += "' color ='" + arr[i].color
+            txt += " 'color ='" + arr[i].color
             txt += "' type ='" + arr[i].types 
             txt += "' medium ='" + arr[i].medium    
-            txt += "' description ='" + arr[i].description          
+            txt += "' description ='" + arr[i].description   
             txt += "' class= img-responsive center-block' style = 'max-width: 250px' "
             txt += "alt='" + arr[i].title + "'>"
             txt += "</a>"
