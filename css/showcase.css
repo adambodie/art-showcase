@@ -17,15 +17,24 @@
       text-align: center; 
  }
 #gallery ul li img {
-      width: 100px;
+      width: 150px;
       display: inline-block;
 }
 
 #gallery ul li h4 {
-      max-width: 100px;
+      max-width: 150px;
       display: flex;
       justify-content: center;
       align-items: center; 
+}
+
+h2 {
+	text-align: center;
+}
+.search {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #imagelightbox {
@@ -40,6 +49,7 @@
   color: #5a5a5a;
   text-align: center; 
   }
+
 
 /* IMAGE LIGHTBOX STYLES 
 ---------------------------*/
@@ -151,4 +161,5 @@
     top: 1.25em;
     /* 20 */
     right: 1.25em;
-    /* 20 */ } }
+    /* 20 */ } 
+}

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="A Website based off my visit to Walla Walla">
+    <meta name="description" content="A Showcase of my High School Artwork">
     <meta name="author" content="Unknown" >
     <link rel="icon" href="../../favicon.ico">
 
@@ -20,11 +20,12 @@
     <link href='https://fonts.googleapis.com/css?family=Frijole' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/showcase.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
 	<h1>Adam's Art Showcase</h1>	
 	<div class="row">
-		<div class="col-md-2">	
+		<div class="col-md-2">
 		</div>
 		<div class="col-md-8">	
 		<div id="gallery"></div>
@@ -37,6 +38,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="js/imagelightbox.js"></script>  
 	<script src="js/myLightbox.js"></script>  
-	<script src="js/showcase.js"></script>  
+	<script src="js/showcase.js"></script>
+	<script src="http://listjs.com/no-cdn/list.js"></script>
+	<script src="http://listjs.com/no-cdn/list.pagination.js"></script>
+	<script>
+ 		var paintingList = new List('gallery', { valueNames: ['name'], page: 12, plugins: [ ListPagination({}) ] });
+</script>
+ 	  
   </body>
 </html>
