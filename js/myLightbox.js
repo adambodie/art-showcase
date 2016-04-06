@@ -19,10 +19,17 @@ $(function() {
 	var color = $( "a[href='" + $( "#imagelightbox" ).attr( "src" ) + "'] img" ).attr( "color" );
 	var types = $( "a[href='" + $( "#imagelightbox" ).attr( "src" ) + "'] img" ).attr( "type" );
 	var medium = $( "a[href='" + $( "#imagelightbox" ).attr( "src" ) + "'] img" ).attr( "medium" );
-	var description = $( "a[href='" + $( "#imagelightbox" ).attr( "src" ) + "'] img" ).attr( "description" );	
+	var description = $( "a[href='" + $( "#imagelightbox" ).attr( "src" ) + "'] img" ).attr( "description" );
+	
+	var newColor = color[0].toUpperCase() + color.substring(1, color.length);
+	var newTypes = types[0].toUpperCase() + types.substring(1, types.length);
+	var newMedium = medium[0].toUpperCase() + medium.substring(1, medium.length);
+	if (newColor === 'Bnw') {
+		newColor = 'Black & White';	
+	}	
 				
 		if( title.length > 0 )
-			$( "<div id='imagelightbox-caption'><h3>Title: " + title + "</h3><p>Color: " + color + "</p><p>Type: " + types + "</p><p>Medium: " + medium + "</p><p>Description: " + description + "</p></div>" ).appendTo( 'body' );
+			$( "<div id='imagelightbox-caption'><h3>Title: " + title + "</h3><p>Color: " + newColor + "</p><p>Type: " + newTypes + "</p><p>Medium: " + newMedium + "</p><p>Description: " + description + "</p></div>" ).appendTo( 'body' );
 	},
 	captionOff = function(){
 		$( '#imagelightbox-caption' ).remove();
