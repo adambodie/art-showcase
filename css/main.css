@@ -1,9 +1,16 @@
 body {
-  	background: url("../img/background.jpg") no-repeat fixed;	
-	background-size: cover;
+  	background-image: url("../img/background3.jpg");	
+	background-position: 100%;
+	background-repeat: repeat;
 	color: black;
 }
 
+#index {
+	background-image: url("../img/background2.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
 #logo {
 	display: block;
 	margin-left: auto;
