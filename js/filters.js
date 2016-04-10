@@ -1,8 +1,14 @@
-	var options = { page: 12, plugins: [ ListPagination({}) ] };
+	var options = { 
+		page: 12, 
+		plugins: [ 
+			ListPagination({}) 
+		] 
+	};
 
 	var userList = new List('gallery', options);
+	
 		$('.all-filter').on('click', function() {
- 		 userList.filter();
+ 		 	userList.filter();
 		});
 
 	$('.grayscale-filter').on('click', function() {

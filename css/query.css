@@ -15,4 +15,23 @@
 		width: 200px;
 		font-size: 1em;
 	}
+	#imagelightbox {
+  		left: 0!important;
+  		margin-left: 100px;
+  		margin-top: 50px;
+  		padding: 20px;
+  }
+  
+
+/* CAPTION */
+#imagelightbox-caption {
+  right: 0!important;
+  left: auto;
+  top: 0;
+  padding: 1.625em;
+  margin-top: 50px;
+  margin-right: 100px;
+  max-width: 400px;
+
+}  	
 }
