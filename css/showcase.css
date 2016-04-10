@@ -1,0 +1,195 @@
+/* Gallery CSS
+----------------------------*/
+
+#gallery ul {
+  list-style: none;
+  margin: 0 auto;
+  padding-top: 100px;
+  display: block;
+  text-align: center; 
+}
+#gallery ul li {
+    display: inline-block;
+    margin: 20px; 
+    vertical-align: top;
+}    
+#gallery ul li a {
+      text-decoration: none; 
+}
+#gallery ul li p {
+      margin-top: 20px;
+      text-align: center; 
+ }
+#gallery ul li img {
+      width: 150px;
+      display: inline-block;
+}
+
+#gallery ul li h4 {
+      max-width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+}
+
+h2 {
+	text-align: center;
+}
+
+.search {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Menu CSS
+---------------------*/
+#menu {
+	display: inline-block;
+}
+
+#menu li {
+	list-style: none;
+	font-family: 'Frijole', cursive;
+	display: inline-block;
+}
+
+#menu a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.25em;
+}
+
+#menu button {
+	background-color:rgba(0,0,0,0);
+	border: none;
+}
+
+.top {
+	vertical-align: top;
+
+}
+.all-filter {
+	font-size: 1.25em;
+	padding: 0;
+}
+.sub {
+	margin-left: -40px;
+	font-size: 0.75em;
+}
+
+.supersub {
+	width: 50px;
+	padding-left: 0;
+}
+.supersub li {
+	width: 50px;
+	font-size: 0.6em;
+	margin-left: 25px;
+}
+
+
+/* IMAGE LIGHTBOX STYLES 
+---------------------------*/
+#imagelightbox {
+  cursor: pointer;
+  position: fixed;
+  z-index: 10003;
+  top: 0!important;
+  padding: 20px;
+  }
+  
+
+/* CAPTION */
+#imagelightbox-caption {
+  color: #fff;
+  position: fixed;
+  z-index: 10001;
+  left: 0;
+  bottom: 0;
+  padding: 1.625em;
+  
+
+}  
+  
+
+/* OVERLAY */
+#imagelightbox-overlay {
+  background-color: black;
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  }
+
+/* "CLOSE" BUTTON */
+#imagelightbox-close {
+  width: 2.5em;
+  height: 2.5em;
+  text-align: left;
+  background-color: #5a5a5a;
+  position: fixed;
+  z-index: 9999;
+  top: 2.5em;
+  right: 2.5em;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease; 
+  }
+
+#imagelightbox-close:hover, #imagelightbox-close:focus {
+  background-color: gray; 
+  }
+
+#imagelightbox-close:before, #imagelightbox-close:after {
+  width: 2px;
+  background-color: #fff;
+  content: '';
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 50%;
+  margin-left: -1px; 
+  }
+
+#imagelightbox-close:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); 
+  }
+
+#imagelightbox-close:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); 
+  }
+
+
+#imagelightbox-loading,
+#imagelightbox-overlay,
+#imagelightbox-close,
+#imagelightbox-caption {
+  -webkit-animation: fade-in .25s linear;
+  animation: fade-in .25s linear; }
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade-in {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@media only screen and (max-width: 41.25em) {
+  #imagelightbox-close {
+    top: 1.25em;
+    /* 20 */
+    right: 1.25em;
+    /* 20 */ } 
+}

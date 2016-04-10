@@ -1,0 +1,26 @@
+.about {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;	
+	padding: 50px;
+}
+
+#thoughts {
+	margin-bottom: 100px;
+}
+#initial {
+	padding: 20px;
+}
+
+#author {
+	max-width: 300px;
+	float: right;
+	padding: 30px;
+}
+
+#teenager {
+	max-width: 300px;
+	float: left;
+	padding: 30px;
+}
