@@ -1,7 +1,8 @@
-	var options = { 
+		var options = {
+		valueNames: [ 'name'], 
 		page: 12, 
 		plugins: [ 
-			ListPagination({}) 
+			ListPagination({outerWindow: 10}) 
 		] 
 	};
 

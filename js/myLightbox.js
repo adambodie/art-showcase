@@ -29,7 +29,7 @@ $(function() {
 	}	
 				
 		if( title.length > 0 )
-			$( "<div id='imagelightbox-caption'><h3><strong>Title:</strong> " + title + "</h3><p><strong>Color:</strong> " + newColor + "</p><p><strong>Type: </strong>" + newTypes + "</p><p><strong>Medium: </strong>" + newMedium + "</p><p><strong>Description:</strong> " + description + "</p></div>" ).appendTo( 'body' );
+			$( "<div id='imagelightbox-caption'><h4><strong>Title:</strong> " + title + "</h4><p><strong>Color:</strong> " + newColor + "&nbsp;<strong>Type: </strong>" + newTypes + "&nbsp;<strong>Medium: </strong>" + newMedium + "</p><p><strong>Description:</strong> " + description + "</p></div>" ).appendTo( 'body' );
 	},
 	captionOff = function(){
 		$( '#imagelightbox-caption' ).remove();

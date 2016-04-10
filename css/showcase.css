@@ -89,6 +89,9 @@ h2 {
 	margin-left: 25px;
 }
 
+.pagination li {
+	margin: 0!important;
+}
 
 /* IMAGE LIGHTBOX STYLES 
 ---------------------------*/
@@ -103,12 +106,13 @@ h2 {
 
 /* CAPTION */
 #imagelightbox-caption {
-  color: #fff;
+  color: black;
   position: fixed;
   z-index: 10001;
   left: 0;
   bottom: 0;
-  padding: 1.625em;
+  padding: 1em;
+  font-size: 0.9em;
   
 
 }  
@@ -116,7 +120,7 @@ h2 {
 
 /* OVERLAY */
 #imagelightbox-overlay {
-  background-color: black;
+  background-image: url("../img/overlay.jpg");
   position: fixed;
   z-index: 9998;
   top: 0;

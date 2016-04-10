@@ -14,7 +14,7 @@
     xmlhttp.send();
         
 	function myFunction(arr) {
-		var txt = "<h2>Search by Title</h2><input id='icon' class='search input-lg' placeholder='Search'/><ul id='imageGallery' class='list'>";
+		var txt = "<h2>Search by Title</h2><input id='icon' class='search input-lg' placeholder='Search'/><ul class='pagination'></ul><ul id='imageGallery' class='list'>";
         for (var i = 0; i < arr.length; i++) {
             txt += "<li class='painting " + arr[i].color +" " + arr[i].types + " " + arr[i].medium + "' >"
             txt += "<a href='" + arr[i].image + "'data-imagelightbox='a'>" 
@@ -29,7 +29,7 @@
             txt += "<br>"
             txt += "<h4 class='name'>" + arr[i].title + "</h4></li>" 
         }
-        txt += "</ul><ul class='pagination'></ul>";
+        txt += "</ul>";
         document.getElementById("gallery").
         innerHTML=txt;
         }
