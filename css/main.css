@@ -3,8 +3,14 @@ body {
 	background-position: 100%;
 	background-repeat: repeat;
 	color: black;
+	font-family: 'Droid Sans', sans-serif;
 }
 
+.header {
+	display: inline-block;
+	font-size: 1.5em;
+	margin-top: 0;
+}
 #index {
 	background-image: url("../img/background2.jpg");
 	background-position: center;
@@ -13,13 +19,12 @@ body {
 }
 #logo {
 	display: inline-block;
-	max-width: 150px;
-	max-height: 150px;
-	margin-left: 50px;
+	margin-left: 10px;
+	margin-top: -20px;
 }
 
 h1 {
-	display: inline-block;
+
 	font-family: 'Frijole', cursive;
 	
 }
