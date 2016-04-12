@@ -12,16 +12,26 @@ body {
 
 }
 #logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: inline-block;
+	max-width: 150px;
+	max-height: 150px;
+	margin-left: 50px;
 }
 
 h1 {
-	text-align: center;
+	display: inline-block;
 	font-family: 'Frijole', cursive;
+	
 }
 
+.jumbotron {
+  	background-image: url("../img/background3.jpg");	
+}
+
+#intro {
+	padding: 20px;
+	color: black;
+}
 #menu {
 	display: inline-block;
 }
@@ -35,7 +45,6 @@ h1 {
 #menu a {
 	text-decoration: none;
 	color: black;
-	font-size: 1.25em;
 }
 
 .top {
@@ -59,8 +68,9 @@ h1 {
 }
 
 #feature img {
-	max-width: 400px;
+	padding: 20px;
 }
 #feature h3 {
 	font-family: 'Frijole', cursive;
+	margin-bottom: 20px;
 }

@@ -45,25 +45,12 @@ h2 {
 
 /* Menu CSS
 ---------------------*/
-#menu {
-	display: inline-block;
-}
 
-#menu li {
-	list-style: none;
-	font-family: 'Frijole', cursive;
-	display: inline-block;
-}
-
-#menu a {
-	text-decoration: none;
-	color: black;
-	font-size: 1.25em;
-}
 
 #menu button {
 	background-color:rgba(0,0,0,0);
 	border: none;
+	font-size: 2em;
 }
 
 .top {
