@@ -72,6 +72,11 @@ h1 {
 	margin-left: 25px;
 }
 
+.semisub {
+	width: 50px;
+	font-size: 0.6em;
+}
+
 #feature img {
 	padding: 20px;
 }

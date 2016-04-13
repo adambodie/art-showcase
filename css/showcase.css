@@ -68,19 +68,22 @@ h2 {
 #menu button {
 	background-color:rgba(0,0,0,0);
 	border: none;
-	font-size: 2em;
+	margin: 0;
 }
 
 .top {
 	vertical-align: top;
+	font-size: 1em;
 
 }
-.all-filter {
-	font-size: 1.25em;
+button .all-filter {
 	padding: 0;
 }
+
+#all {
+	font-size: 1em;
+}
 .sub {
-	margin-left: -40px;
 	font-size: 0.75em;
 }
 
@@ -92,6 +95,11 @@ h2 {
 	width: 50px;
 	font-size: 0.6em;
 	margin-left: 25px;
+}
+
+.semisub {
+	width: 50px;
+	font-size: 0.6em;
 }
 
 .pagination li {
