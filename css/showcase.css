@@ -76,31 +76,23 @@ h2 {
 	font-size: 1em;
 
 }
-button .all-filter {
-	padding: 0;
-}
 
 #all {
 	font-size: 1em;
+	padding: 0;
 }
 .sub {
 	font-size: 0.75em;
 }
 
 .supersub {
-	width: 50px;
 	padding-left: 0;
 }
 .supersub li {
-	width: 50px;
 	font-size: 0.6em;
-	margin-left: 25px;
+	display: block!important;
 }
 
-.semisub {
-	width: 50px;
-	font-size: 0.6em;
-}
 
 .pagination li {
 	margin: 0!important;

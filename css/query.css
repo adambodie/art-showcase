@@ -30,7 +30,10 @@
   		padding: 20px;
 
   }
-  
+  .semisub {
+		margin-left:0;
+		width: auto;  
+  }
 
 /* CAPTION */
 #imagelightbox-caption {

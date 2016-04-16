@@ -39,6 +39,7 @@ h1 {
 }
 #menu {
 	display: inline-block;
+	margin-left: -20px;
 }
 
 #menu li {
@@ -58,23 +59,24 @@ h1 {
 }
 
 .sub {
-	margin-left: -40px;
 	font-size: 0.75em;
 }
 
 .supersub {
-	width: 50px;
 	padding-left: 0;
 }
 .supersub li {
-	width: 50px;
 	font-size: 0.6em;
-	margin-left: 25px;
 }
 
 .semisub {
-	width: 50px;
 	font-size: 0.6em;
+	margin-left: -40px;
+	width: 95px;
+}
+
+.semisub li {
+	display: block!important;
 }
 
 #feature img {
