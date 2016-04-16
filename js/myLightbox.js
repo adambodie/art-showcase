@@ -13,6 +13,15 @@ $(function() {
 	closeButtonOff = function(){
 		$( '#imagelightbox-close' ).remove();
 	},
+
+	// TOGGLE BUTTON
+	toggleButtonOn = function(){
+		$( '<button type="button" id="imagelightbox-toggle" title="Toggle Description"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $( '#imagelightbox-caption' ).toggle(); return false; });
+	},
+	toggleButtonOff = function(){
+		$( '#imagelightbox-toggle' ).remove();	
+	},		
+	
 	// CAPTION
 	captionOn = function(){
 	var title = $( "a[href='" + $( "#imagelightbox" ).attr( "src" ) + "'] img" ).attr( "alt" );
@@ -34,11 +43,15 @@ $(function() {
 	captionOff = function(){
 		$( '#imagelightbox-caption' ).remove();
 	}
+	
+	captionHide = function() {
+		$( '#imagelightbox-caption' ).toggle();	
+	}
 	var selector = 'a[data-imagelightbox="a"]';
 	var instance = $( selector ).imageLightbox({
-			onStart:		function() { overlayOn(); closeButtonOn( instance ); },
-			onEnd:			function() { overlayOff(); captionOff(); closeButtonOff();},
+			onStart:		function() { overlayOn(); closeButtonOn( instance ); toggleButtonOn() },
+			onEnd:			function() { overlayOff(); captionOff(); closeButtonOff(); toggleButtonOff() },
 			onLoadStart: 	function() { captionOff()},
-			onLoadEnd:	 	function() { captionOn();}
+			onLoadEnd:	 	function() { captionOn()}
 		});		
 });

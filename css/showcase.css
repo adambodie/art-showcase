@@ -103,7 +103,7 @@ h2 {
 #imagelightbox {
   cursor: pointer;
   position: fixed;
-  z-index: 10003;
+  z-index: 10000;
   top: 0!important;
   left: 0!important;
   padding: 20px;
@@ -114,13 +114,12 @@ h2 {
 #imagelightbox-caption {
   color: black;
   position: fixed;
-  z-index: 10001;
+  z-index: 10000;
   left: 0;
   bottom: 0;
   padding: 1em;
   font-size: 0.9em;
-  
-
+ 
 }  
   
 
@@ -143,17 +142,30 @@ h2 {
   background-color: #5a5a5a;
   position: fixed;
   z-index: 9999;
-  top: 2.5em;
-  right: 2.5em;
+  top: 2em;
+  right: 2em;
   -webkit-transition: color .3s ease;
   transition: color .3s ease; 
   }
+  
+#imagelightbox-toggle {
+  width: 2.5em;
+  height: 2.5em;
+  text-align: left;
+  background-color: #5a5a5a;
+  position: fixed;
+  z-index: 9999;
+  top: 5em;
+  right: 2em;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease; 
+  }  
 
 #imagelightbox-close:hover, #imagelightbox-close:focus {
   background-color: gray; 
   }
 
-#imagelightbox-close:before, #imagelightbox-close:after {
+#imagelightbox-close:before, #imagelightbox-close:after  {
   width: 2px;
   background-color: #fff;
   content: '';
@@ -163,6 +175,20 @@ h2 {
   left: 50%;
   margin-left: -1px; 
   }
+
+#imagelightbox-toggle:before, #imagelightbox-toggle:after  {
+  width: 2px;
+  color: #fff;
+  content: '+';
+  font-size: 2.25em;
+  position: absolute;
+  top: -15%;
+  left: 30%;
+  margin-left: -1px; 
+  }
+
+
+  
 
 #imagelightbox-close:before {
   -webkit-transform: rotate(45deg);
@@ -196,10 +222,3 @@ h2 {
   to {
     opacity: 1; } }
 
-@media only screen and (max-width: 41.25em) {
-  #imagelightbox-close {
-    top: 1.25em;
-    /* 20 */
-    right: 1.25em;
-    /* 20 */ } 
-}

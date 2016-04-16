@@ -36,12 +36,25 @@
   }
 
 /* CAPTION */
-#imagelightbox-caption {
-  right: 200px;
-  left: 0;
-  padding: 1.25em;
-  margin-right: 100px;
-
-} 
+	#imagelightbox-caption {
+  		right: 200px;
+  		left: 0;
+  		padding: 1.25em;
+  		margin-right: 100px;
+	} 
  	
+}
+
+@media only screen and (max-width: 41.25em) {
+  #imagelightbox-close {
+    top: 1.25em;
+    /* 20 */
+    right: 1.25em;
+    /* 20 */ }
+    
+  #imagelightbox-toggle {
+    top: 4.5em;
+    /* 20 */
+    right: 1.25em;
+    /* 20 */ }  
 }
