@@ -161,18 +161,18 @@ h2 {
   transition: color .3s ease; 
   }  
 
-#imagelightbox-close:hover, #imagelightbox-close:focus {
+#imagelightbox-close:hover, #imagelightbox-close:focus, #imagelightbox-toggle:hover, #imagelightbox-toggle:focus {
   background-color: gray; 
   }
 
 #imagelightbox-close:before, #imagelightbox-close:after  {
   width: 2px;
-  background-color: #fff;
-  content: '';
+  color: #fff;
+  content: 'x';
+  font-size: 2.25em;
   position: absolute;
-  top: 20%;
-  bottom: 20%;
-  left: 50%;
+  top: -25%;
+  left: 30%;
   margin-left: -1px; 
   }
 
@@ -183,42 +183,9 @@ h2 {
   font-size: 2.25em;
   position: absolute;
   top: -15%;
-  left: 30%;
+  left: 25%;
   margin-left: -1px; 
   }
 
 
-  
-
-#imagelightbox-close:before {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg); 
-  }
-
-#imagelightbox-close:after {
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg); 
-  }
-
-
-#imagelightbox-loading,
-#imagelightbox-overlay,
-#imagelightbox-close,
-#imagelightbox-caption {
-  -webkit-animation: fade-in .25s linear;
-  animation: fade-in .25s linear; }
-
-@-webkit-keyframes fade-in {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes fade-in {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
 
