@@ -24,19 +24,19 @@
   margin: 0 auto;
   padding-top: 10px;
   display: block;
-  text-align: center; 
+  text-align: center;
 }
 #gallery ul li {
     display: inline-block;
-    margin: 20px; 
+    margin: 20px;
     vertical-align: top;
-}    
+}
 #gallery ul li a {
-      text-decoration: none; 
+      text-decoration: none;
 }
 #gallery ul li p {
       margin-top: 20px;
-      text-align: center; 
+      text-align: center;
  }
 #gallery ul li img {
       width: 150px;
@@ -47,7 +47,7 @@
       max-width: 150px;
       display: flex;
       justify-content: center;
-      align-items: center; 
+      align-items: center;
 }
 
 h2 {
@@ -98,7 +98,7 @@ h2 {
 	margin: 0!important;
 }
 
-/* IMAGE LIGHTBOX STYLES 
+/* IMAGE LIGHTBOX STYLES
 ---------------------------*/
 #imagelightbox {
   cursor: pointer;
@@ -107,8 +107,9 @@ h2 {
   top: 0!important;
   left: 0!important;
   padding: 20px;
+	transform: none!important;
   }
-  
+
 
 /* CAPTION */
 #imagelightbox-caption {
@@ -119,9 +120,9 @@ h2 {
   bottom: 0;
   padding: 1em;
   font-size: 0.9em;
- 
-}  
-  
+
+}
+
 
 /* OVERLAY */
 #imagelightbox-overlay {
@@ -131,7 +132,7 @@ h2 {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0; 
+  left: 0;
   }
 
 /* "CLOSE" BUTTON */
@@ -145,9 +146,9 @@ h2 {
   top: 2em;
   right: 2em;
   -webkit-transition: color .3s ease;
-  transition: color .3s ease; 
+  transition: color .3s ease;
   }
-  
+
 #imagelightbox-toggle {
   width: 2.5em;
   height: 2.5em;
@@ -158,11 +159,11 @@ h2 {
   top: 5em;
   right: 2em;
   -webkit-transition: color .3s ease;
-  transition: color .3s ease; 
-  }  
+  transition: color .3s ease;
+  }
 
 #imagelightbox-close:hover, #imagelightbox-close:focus, #imagelightbox-toggle:hover, #imagelightbox-toggle:focus {
-  background-color: gray; 
+  background-color: gray;
   }
 
 #imagelightbox-close:before, #imagelightbox-close:after  {
@@ -173,7 +174,7 @@ h2 {
   position: absolute;
   top: -25%;
   left: 30%;
-  margin-left: -1px; 
+  margin-left: -1px;
   }
 
 #imagelightbox-toggle:before, #imagelightbox-toggle:after  {
@@ -184,8 +185,5 @@ h2 {
   position: absolute;
   top: -15%;
   left: 25%;
-  margin-left: -1px; 
+  margin-left: -1px;
   }
-
-
-

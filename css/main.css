@@ -1,5 +1,5 @@
 body {
-  	background-image: url("../img/background3.jpg");	
+  	background-image: url("../img/background3.jpg");
 	background-position: 100%;
 	background-repeat: repeat;
 	color: black;
@@ -24,11 +24,11 @@ body {
 }
 
 h1 {
-	font-family: 'Frijole', cursive;	
+	font-family: 'Frijole', cursive;
 }
 
 .jumbotron {
-  	background-image: url("../img/background3.jpg");	
+  	background-image: url("../img/background3.jpg");
 }
 
 #intro {
@@ -91,6 +91,7 @@ h1 {
   cursor: pointer;
   position: fixed;
   z-index: 10000;
+  transform: none!important;
 }
 
 #imagelightbox-overlay {
@@ -100,7 +101,7 @@ h1 {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0; 
+  left: 0;
   }
 
 /* "CLOSE" BUTTON */
@@ -114,12 +115,12 @@ h1 {
   top: 2em;
   right: 2em;
   -webkit-transition: color .3s ease;
-  transition: color .3s ease; 
+  transition: color .3s ease;
   }
 
 
 #imagelightbox-close:hover, #imagelightbox-close:focus{
-  background-color: gray; 
+  background-color: gray;
   }
 
 #imagelightbox-close:before, #imagelightbox-close:after  {
@@ -130,6 +131,5 @@ h1 {
   position: absolute;
   top: -25%;
   left: 30%;
-  margin-left: -1px; 
+  margin-left: -1px;
   }
-
