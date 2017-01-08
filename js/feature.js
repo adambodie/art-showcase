@@ -9,21 +9,18 @@
         jsonDoc = JSON.parse(xmlhttp.responseText);
         myFunction(jsonDoc);
 		}
-	}	
+	}
 	xmlhttp.open("GET","data/showcase.json",true);
    xmlhttp.send();
-        
+
 	function myFunction(arr) {
 		var feattxt = "";
-		var random = Math.floor(Math.random() * arr.length);	
-<<<<<<< HEAD
+		var random = Math.floor(Math.random() * arr.length);
 		feattxt += "<a href='" + arr[random].image
 		feattxt += "' data-imagelightbox='a'>"
-=======
->>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
-		feattxt += "<img src='" + arr[random].image 
+		feattxt += "<img src='" + arr[random].image
 		feattxt += "' class='img-responsive center-block'></a>"
-		feattxt += "<h3 style='text-align: center'>" 
+		feattxt += "<h3 style='text-align: center'>"
 		feattxt += arr[random].title + "</h3>"
       document.getElementById("feature").innerHTML=feattxt;
-}	
+}
