@@ -1,6 +1,5 @@
 body {
-<<<<<<< HEAD
-  	background-image: url("../img/background3.jpg");
+  	background-image: url("../img/background3.jpg");	
 	background-position: 100%;
 	background-repeat: repeat;
 	color: black;
@@ -12,14 +11,6 @@ body {
 	font-size: 1.5em;
 	margin-top: 0;
 }
-=======
-  	background-image: url("../img/background3.jpg");	
-	background-position: 100%;
-	background-repeat: repeat;
-	color: black;
-}
-
->>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 #index {
 	background-image: url("../img/background2.jpg");
 	background-position: center;
@@ -27,18 +18,17 @@ body {
 
 }
 #logo {
-<<<<<<< HEAD
 	display: inline-block;
 	margin-left: 10px;
 	margin-top: -20px;
 }
 
 h1 {
-	font-family: 'Frijole', cursive;
+	font-family: 'Frijole', cursive;	
 }
 
 .jumbotron {
-  	background-image: url("../img/background3.jpg");
+  	background-image: url("../img/background3.jpg");	
 }
 
 #intro {
@@ -48,20 +38,6 @@ h1 {
 #menu {
 	display: inline-block;
 	margin-left: -20px;
-=======
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-h1 {
-	text-align: center;
-	font-family: 'Frijole', cursive;
-}
-
-#menu {
-	display: inline-block;
->>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 }
 
 #menu li {
@@ -73,10 +49,6 @@ h1 {
 #menu a {
 	text-decoration: none;
 	color: black;
-<<<<<<< HEAD
-=======
-	font-size: 1.25em;
->>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 }
 
 .top {
@@ -85,15 +57,10 @@ h1 {
 }
 
 .sub {
-<<<<<<< HEAD
-=======
-	margin-left: -40px;
->>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 	font-size: 0.75em;
 }
 
 .supersub {
-<<<<<<< HEAD
 	padding-left: 0;
 }
 .supersub li {
@@ -124,7 +91,6 @@ h1 {
   cursor: pointer;
   position: fixed;
   z-index: 10000;
-  transform: none!important;
 }
 
 #imagelightbox-overlay {
@@ -134,7 +100,7 @@ h1 {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; 
   }
 
 /* "CLOSE" BUTTON */
@@ -148,12 +114,12 @@ h1 {
   top: 2em;
   right: 2em;
   -webkit-transition: color .3s ease;
-  transition: color .3s ease;
+  transition: color .3s ease; 
   }
 
 
 #imagelightbox-close:hover, #imagelightbox-close:focus{
-  background-color: gray;
+  background-color: gray; 
   }
 
 #imagelightbox-close:before, #imagelightbox-close:after  {
@@ -164,22 +130,6 @@ h1 {
   position: absolute;
   top: -25%;
   left: 30%;
-  margin-left: -1px;
+  margin-left: -1px; 
   }
-=======
-	width: 50px;
-	padding-left: 0;
-}
-.supersub li {
-	width: 50px;
-	font-size: 0.6em;
-	margin-left: 25px;
-}
 
-#feature img {
-	max-width: 400px;
-}
-#feature h3 {
-	font-family: 'Frijole', cursive;
-}
->>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
