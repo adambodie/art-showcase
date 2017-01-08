@@ -2,6 +2,7 @@
 	#menu li {
 		display: block;
 	}
+<<<<<<< HEAD
 	
 #menu a {
 	text-decoration: none;
@@ -12,6 +13,8 @@
 #all {
 	font-size: 1.5em;
 }
+=======
+>>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 	.sub {
 		margin-left: 0;
 		width: 200px;
@@ -25,6 +28,7 @@
 		width: 200px;
 		font-size: 1em;
 	}
+<<<<<<< HEAD
 
   .semisub {
 		margin-left:0;
@@ -53,4 +57,25 @@
     /* 20 */
     right: 1.25em;
     /* 20 */ }  
+=======
+	#imagelightbox {
+  		left: 0!important;
+  		margin-left: 100px;
+  		margin-top: 50px;
+  		padding: 20px;
+  }
+  
+
+/* CAPTION */
+#imagelightbox-caption {
+  right: 0!important;
+  left: auto;
+  top: 0;
+  padding: 1.625em;
+  margin-top: 50px;
+  margin-right: 100px;
+  max-width: 400px;
+
+}  	
+>>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 }

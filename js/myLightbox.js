@@ -13,6 +13,7 @@ $(function() {
 	closeButtonOff = function(){
 		$( '#imagelightbox-close' ).remove();
 	},
+<<<<<<< HEAD
 
 	// TOGGLE BUTTON
 	toggleButtonOn = function(){
@@ -22,6 +23,8 @@ $(function() {
 		$( '#imagelightbox-toggle' ).remove();	
 	},		
 	
+=======
+>>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 	// CAPTION
 	captionOn = function(){
 	var title = $( "a[href='" + $( "#imagelightbox" ).attr( "src" ) + "'] img" ).attr( "alt" );
@@ -38,11 +41,16 @@ $(function() {
 	}	
 				
 		if( title.length > 0 )
+<<<<<<< HEAD
 			$( "<div id='imagelightbox-caption'><h4><strong>Title:</strong> " + title + "</h4><p><strong>Color:</strong> " + newColor + "&nbsp;<strong>Type: </strong>" + newTypes + "&nbsp;<strong>Medium: </strong>" + newMedium + "</p><p><strong>Description:</strong> " + description + "</p></div>" ).appendTo( 'body' );
+=======
+			$( "<div id='imagelightbox-caption'><h3><strong>Title:</strong> " + title + "</h3><p><strong>Color:</strong> " + newColor + "</p><p><strong>Type: </strong>" + newTypes + "</p><p><strong>Medium: </strong>" + newMedium + "</p><p><strong>Description:</strong> " + description + "</p></div>" ).appendTo( 'body' );
+>>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 	},
 	captionOff = function(){
 		$( '#imagelightbox-caption' ).remove();
 	}
+<<<<<<< HEAD
 	
 	captionHide = function() {
 		$( '#imagelightbox-caption' ).toggle();	
@@ -53,5 +61,13 @@ $(function() {
 			onEnd:			function() { overlayOff(); captionOff(); closeButtonOff(); toggleButtonOff() },
 			onLoadStart: 	function() { captionOff()},
 			onLoadEnd:	 	function() { captionOn()}
+=======
+	var selector = 'a[data-imagelightbox="a"]';
+	var instance = $( selector ).imageLightbox({
+			onStart:		function() { overlayOn(); closeButtonOn( instance ); },
+			onEnd:			function() { overlayOff(); captionOff(); closeButtonOff();},
+			onLoadStart: 	function() { captionOff()},
+			onLoadEnd:	 	function() { captionOn();}
+>>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 		});		
 });

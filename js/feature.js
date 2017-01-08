@@ -16,8 +16,11 @@
 	function myFunction(arr) {
 		var feattxt = "";
 		var random = Math.floor(Math.random() * arr.length);	
+<<<<<<< HEAD
 		feattxt += "<a href='" + arr[random].image
 		feattxt += "' data-imagelightbox='a'>"
+=======
+>>>>>>> 41a800a66f5eccd16da176aa8682c2fb85eda44f
 		feattxt += "<img src='" + arr[random].image 
 		feattxt += "' class='img-responsive center-block'></a>"
 		feattxt += "<h3 style='text-align: center'>" 
