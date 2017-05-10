@@ -7,13 +7,9 @@ import {
 
 const Header = () => (
   <div className="jumbotron">
-  		<div className="row">
-  			<div className="col-xs-4">
-				<img src="./img/logo.svg" alt="Logo" className="img-responsive" id="logo"/>
-			</div>
-			<div className="col-xs-8">
-				<h1 className="header">Adam's Art Showcase</h1>
-			</div>
+  		<div className="header">
+				<img src="./img/logo.svg" alt="Logo" className="logo"/>
+				<h1 className="logo-header">Adam's Art Showcase</h1>
 		</div>
 	</div>
 

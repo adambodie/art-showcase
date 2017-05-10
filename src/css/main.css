@@ -7,20 +7,22 @@ body {
 }
 
 .header {
-	display: inline-block;
-	font-size: 1.5em;
-	margin-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
+
+.logo {
+	width: 217px;
+	height: 133px;
+}
+
+
 #index {
 	background-image: url("../img/background2.jpg");
 	background-position: center;
 	background-size: cover;
 
-}
-#logo {
-	display: inline-block;
-	margin-left: 10px;
-	margin-top: -20px;
 }
 
 h1 {
