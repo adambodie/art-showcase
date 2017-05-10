@@ -13,10 +13,13 @@ body {
 }
 
 .logo {
-	width: 217px;
-	height: 133px;
+	width: 20%;
+	height: 20%;
 }
 
+.jumbotron h1 {
+	font-size: 1.25em;
+}
 
 #index {
 	background-image: url("../img/background2.jpg");
@@ -30,7 +33,9 @@ h1 {
 }
 
 .jumbotron {
-  	background-image: url("../img/background3.jpg");	
+  	background-image: url("../img/background3.jpg");
+	padding: 0;
+	
 }
 
 #intro {
