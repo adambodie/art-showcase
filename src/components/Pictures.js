@@ -6,22 +6,26 @@ import {
 import Picture from './Picture.js'
 
 const Pictures = ({ match }) => (
-  <div>
-    <h2>Pictures</h2>
-    <ul>
+  <div id="gallery">
+    <h2>Search by Title</h2>
+    <input id="icon" className="search input-lg" placeholder="Search"/>
+    <ul className="flex-container">
       <li>
-        <Link to={`${match.url}/rendering`}>
-          Rendering with React
+        <Link to={`${match.url}/alice-cooper`}>
+                <img src="img/alice-cooper.jpg " className="img-responsive center-block" alt="Alice Cooper" />
+            <h4 className="name">Alice Cooper</h4>
+        </Link>
+      </li>
+      <li className="flex-item">
+        <Link to={`${match.url}/apple`}>
+                <img src="img/apple.jpg " className="img-responsive center-block" alt="Apple" />
+            <h4 className="name">Apple</h4>
         </Link>
       </li>
       <li>
-        <Link to={`${match.url}/components`}>
-          Components
-        </Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/props-v-state`}>
-          Props v. State
+        <Link to={`${match.url}/area-codes`}>
+                <img src="img/ludacris.jpg " className="img-responsive center-block" alt="Area Codes"/>
+            <h4 className="name">Area Codes</h4>
         </Link>
       </li>
     </ul>

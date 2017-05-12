@@ -19,13 +19,19 @@
 /* Gallery CSS
 ----------------------------*/
 
-#gallery ul {
-  list-style: none;
-  margin: 0 auto;
-  padding-top: 10px;
-  display: block;
-  text-align: center; 
+.flex-container {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
 }
+.flex-container li {
+	align-self: center;
+}
+
+.name {
+	color: black;
+}
+
 #gallery ul li {
     display: inline-block;
     margin: 20px; 
