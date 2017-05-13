@@ -19,12 +19,12 @@
 /* Gallery CSS
 ----------------------------*/
 
-.flex-container {
+.list {
 	display: flex;
 	list-style: none;
 	flex-wrap: wrap;
 }
-.flex-container li {
+.list li {
 	align-self: center;
 }
 
@@ -128,6 +128,23 @@ h2 {
  
 }  
   
+.picture {
+	position: absolute;
+	top: 0;
+	width: 95%;
+	height: 95%;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("../img/overlay.jpg");
+}
+.picture img {
+	padding: 20px;
+}
+
+.paragraph {
+	margin-left: 20px;
+}  
 
 /* OVERLAY */
 #imagelightbox-overlay {

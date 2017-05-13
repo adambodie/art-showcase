@@ -1,3 +1,6 @@
+/* Main styles
+-------------------------*/
+
 body {
   	background-image: url("../img/background3.jpg");	
 	background-position: 100%;
@@ -6,10 +9,24 @@ body {
 	font-family: 'Droid Sans', sans-serif;
 }
 
-.header {
+h1 {
+	font-family: 'Frijole', cursive;	
+}
+
+
+/* Header styles
+-------------------------*/
+
+.jumbotron {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background-image: url("../img/background3.jpg");
+	padding: 0;
+}
+
+.jumbotron h1 {
+	font-size: 1.25em;
 }
 
 .logo {
@@ -17,9 +34,18 @@ body {
 	height: 20%;
 }
 
-.jumbotron h1 {
-	font-size: 1.25em;
+/* Footer styles
+-------------------------*/
+footer {
+	height: 10vh;
+	font-family: 'Frijole', cursive;
+	padding: 20px;
 }
+
+
+
+
+
 
 #index {
 	background-image: url("../img/background2.jpg");
@@ -28,13 +54,9 @@ body {
 
 }
 
-h1 {
-	font-family: 'Frijole', cursive;	
-}
 
 .jumbotron {
-  	background-image: url("../img/background3.jpg");
-	padding: 0;
+
 	
 }
 
@@ -63,26 +85,6 @@ h1 {
 
 }
 
-.sub {
-	font-size: 0.75em;
-}
-
-.supersub {
-	padding-left: 0;
-}
-.supersub li {
-	font-size: 0.6em;
-}
-
-.semisub {
-	font-size: 0.6em;
-	margin-left: -40px;
-	width: 95px;
-}
-
-.semisub li {
-	display: block!important;
-}
 
 #feature img {
 	padding: 20px;
