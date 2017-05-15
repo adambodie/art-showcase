@@ -22,11 +22,12 @@ h1 {
 	align-items: center;
 	justify-content: space-between;
 	background-image: url("../img/background3.jpg");
-	padding: 0;
+	padding: 0!important;
 }
 
 .jumbotron h1 {
 	font-size: 1.25em;
+	text-align: center;
 }
 
 .logo {
@@ -44,9 +45,6 @@ footer {
 
 
 
-
-
-
 #index {
 	background-image: url("../img/background2.jpg");
 	background-position: center;
@@ -54,15 +52,8 @@ footer {
 
 }
 
-
-.jumbotron {
-
-	
-}
-
 #intro {
 	padding: 20px;
-	color: black;
 }
 #menu {
 	display: inline-block;
