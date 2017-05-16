@@ -10,7 +10,7 @@ const Pictures = ({ match }) => {
 	
 	const pictures = Object.keys(PictureList).map(function(key) {
 			return<li key={key} className="flex-item">
-				<Link to={`${match.url}/${key}`}>
+				<Link to={PictureList[key].image} data-imagelightbox="a">
 			<img src={PictureList[key].image} className="img-responsive center-block" alt={PictureList[key].title}/>
 			<h4 className="name">{PictureList[key].title}</h4>
 				</Link>
