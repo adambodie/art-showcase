@@ -9,9 +9,9 @@ const Feature =() => {
 	return (
 	<div id="feature">
 		<Link to={PictureList[random].image} data-imagelightbox="a">
-			<img src={PictureList[random].image} className="img-responsive" alt={PictureList[random].title}/>
-			<h3>{PictureList[random].title}</h3>
+			<img src={PictureList[random].image} className="img-responsive" alt={PictureList[random].title}/>			
 		</Link>
+		<h3>{PictureList[random].title}</h3>
 	</div>
 	)
 	

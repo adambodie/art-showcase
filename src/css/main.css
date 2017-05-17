@@ -78,7 +78,14 @@ footer {
 
 
 #feature img {
-	padding: 20px;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+#feature img:hover {
+	transition-duration: 0.5s;
+	transform: scale(1.1, 1.1);
 }
 #feature h3 {
 	font-family: 'Frijole', cursive;
@@ -92,6 +99,7 @@ footer {
   cursor: pointer;
   position: fixed;
   z-index: 10000;
+  padding: 0;
 }
 
 #imagelightbox-overlay {
