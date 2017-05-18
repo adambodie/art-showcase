@@ -3,7 +3,6 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import '../css/showcase.css';
 import Picture from './Picture.js'
 import PictureList from '../data/pictures.js';
 

@@ -1,8 +1,12 @@
+
+$background-image: url("../img/background3.jpg");
+$frijole: 'Frijole', cursive;
+
 /* Main styles
 -------------------------*/
 
 body {
-  	background-image: url("../img/background3.jpg");	
+  	background-image: $background-image;	
 	background-position: 100%;
 	background-repeat: repeat;
 	color: black;
@@ -10,9 +14,18 @@ body {
 }
 
 h1 {
-	font-family: 'Frijole', cursive;	
+	font-family: $frijole;
 }
 
+#index {
+	background-image: url("../img/background2.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
+#intro {
+	padding: 20px;
+}
 
 /* Header styles
 -------------------------*/
@@ -21,15 +34,13 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-image: url("../img/background3.jpg");
+	background-image: $background-image;
 	padding: 0!important;
+	h1 {
+		font-size: 1.25em;
+		text-align: center;
+	}
 }
-
-.jumbotron h1 {
-	font-size: 1.25em;
-	text-align: center;
-}
-
 .logo {
 	width: 20%;
 	height: 20%;
@@ -39,61 +50,50 @@ h1 {
 -------------------------*/
 footer {
 	height: 10vh;
-	font-family: 'Frijole', cursive;
+	font-family: $frijole;
 	padding: 20px;
 }
 
 
-
-#index {
-	background-image: url("../img/background2.jpg");
-	background-position: center;
-	background-size: cover;
-
-}
-
-#intro {
-	padding: 20px;
-}
+/* Menu styles
+-------------------------*/
 #menu {
 	display: inline-block;
 	margin-left: -20px;
+	li {
+		list-style: none;
+		font-family: 'Frijole', cursive;
+		display: inline-block;
+		vertical-align: top;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
 }
 
-#menu li {
-	list-style: none;
-	font-family: 'Frijole', cursive;
-	display: inline-block;
+/* Feature styles
+----------------------*/
+
+#feature{ 
+	img {
+		padding: 10px;
+		display: block;
+		margin: 0 auto;
+		&:hover {
+			transition-duration: 0.5s;
+			transform: scale(1.1, 1.1);
+		}
+	}
+	h3 {
+		font-family: 'Frijole', cursive;
+		margin-bottom: 20px;
+		text-align: center;
+	}
 }
 
-#menu a {
-	text-decoration: none;
-	color: black;
-}
-
-.top {
-	vertical-align: top;
-
-}
-
-
-#feature img {
-	padding: 10px;
-	display: block;
-	margin: 0 auto;
-}
-
-#feature img:hover {
-	transition-duration: 0.5s;
-	transform: scale(1.1, 1.1);
-}
-#feature h3 {
-	font-family: 'Frijole', cursive;
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-/* OVERLAY */
+/* Overlay styles
+----------------------*/
 
 #imagelightbox {
   cursor: pointer;
@@ -102,6 +102,239 @@ footer {
   padding: 0;
 }
 
+#imagelightbox-overlay {
+  background-image: url("../img/overlay.jpg");
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  }
+
+/* "CLOSE" BUTTON */
+#imagelightbox-close {
+	width: 2.5em;
+	height: 2.5em;
+	text-align: left;
+	background-color: #5a5a5a;
+	position: fixed;
+	z-index: 9999;
+	top: 2em;
+	right: 2em;
+	-webkit-transition: color .3s ease;
+	transition: color .3s ease; 
+	&:hover	{
+		background-color: gray;
+	}
+	&:focus {
+		background-color: gray; 
+	}
+	&:before{
+	  width: 2px;
+	  color: #fff;
+	  content: 'x';
+	  font-size: 2.25em;
+	  position: absolute;
+	  top: -25%;
+	  left: 30%;
+	  margin-left: -1px; 	
+	}
+	&:after {
+	  width: 2px;
+	  color: #fff;
+	  content: 'x';
+	  font-size: 2.25em;
+	  position: absolute;
+	  top: -25%;
+	  left: 30%;
+	  margin-left: -1px; 
+	}
+	
+ }
+ 
+ /* About Styles
+ --------------------------*/
+ .about {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;	
+	padding: 50px;
+}
+
+#thoughts {
+	margin-bottom: 100px;
+}
+#initial {
+	padding: 20px;
+}
+
+#author {
+	max-width: 300px;
+	float: right;
+	padding: 30px;
+}
+
+#teenager {
+	max-width: 300px;
+	float: left;
+	padding: 30px;
+}
+
+
+
+/* Pagination Styles
+ ------------------------*/
+.pagination>.active>a , .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #D2600A;
+	border-color: #D2600A;
+}
+
+.pagination>li>a {
+	color: #D2600A;
+	border-color: #D2600A;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #D2600A;
+    border-color: #D2600A;
+    background-color: #eee;
+}
+
+/* Gallery CSS
+----------------------------*/
+
+.list {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	li {
+		align-self: center;
+	}
+}
+
+.name {
+	color: black;
+}
+
+#gallery { 
+	ul {
+		li {
+			display: inline-block;
+			margin: 20px; 
+			vertical-align: top;
+			a {
+				text-decoration: none;
+			}
+			p {
+				margin-top: 20px;
+				text-align: center; 
+			}
+			img {
+				width: 150px;
+				display: inline-block;
+			}
+			h4 {
+				max-width: 150px;
+				display: flex;
+				justify-content: center;
+				align-items: center; 	
+			}
+		}
+	}
+}    
+
+h2 {
+	text-align: center;
+}
+
+.search {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Menu CSS
+---------------------*/
+
+
+#menu button {
+	background-color:rgba(0,0,0,0);
+	border: none;
+	margin: 0;
+}
+
+.top {
+	vertical-align: top;
+	font-size: 1em;
+
+}
+
+#all {
+	font-size: 1em;
+	padding: 0;
+}
+.sub {
+	font-size: 0.75em;
+}
+
+.supersub {
+	padding-left: 0;
+}
+.supersub li {
+	font-size: 0.6em;
+	display: block!important;
+}
+
+
+.pagination li {
+	margin: 0!important;
+}
+
+/* IMAGE LIGHTBOX STYLES 
+---------------------------*/
+#imagelightbox {
+  cursor: pointer;
+  position: fixed;
+  z-index: 10000;
+  padding: 20px;
+  }
+  
+
+/* CAPTION */
+#imagelightbox-caption {
+  color: black;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+  font-size: 0.9em;
+ 
+}  
+  
+.picture {
+	position: absolute;
+	top: 0;
+	width: 95%;
+	height: 95%;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("../img/overlay.jpg");
+}
+.picture img {
+	padding: 20px;
+}
+
+.paragraph {
+	margin-left: 20px;
+}  
+
+/* OVERLAY */
 #imagelightbox-overlay {
   background-image: url("../img/overlay.jpg");
   position: fixed;
@@ -125,9 +358,21 @@ footer {
   -webkit-transition: color .3s ease;
   transition: color .3s ease; 
   }
+  
+#imagelightbox-toggle {
+  width: 2.5em;
+  height: 2.5em;
+  text-align: left;
+  background-color: #5a5a5a;
+  position: fixed;
+  z-index: 9999;
+  top: 5em;
+  right: 2em;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease; 
+  }  
 
-
-#imagelightbox-close:hover, #imagelightbox-close:focus{
+#imagelightbox-close:hover, #imagelightbox-close:focus, #imagelightbox-toggle:hover, #imagelightbox-toggle:focus {
   background-color: gray; 
   }
 
@@ -141,4 +386,74 @@ footer {
   left: 30%;
   margin-left: -1px; 
   }
+
+#imagelightbox-toggle:before, #imagelightbox-toggle:after  {
+  width: 2px;
+  color: #fff;
+  content: '+';
+  font-size: 2.25em;
+  position: absolute;
+  top: -15%;
+  left: 25%;
+  margin-left: -1px; 
+  }
+
+
+
+
+
+
+/* Query CSS
+---------------------*/
+@media (min-width: 768px) {
+	.jumbotron h1 {
+		width: 80%;
+		font-size: 64px;
+	}
+	#menu {
+		li {
+			display: block;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+			font-size: 1.5em;
+		}	
+}
+
+#all {
+	font-size: 1.5em;
+}
+
+/* CAPTION */
+	#imagelightbox-caption {
+  		right: 200px;
+  		left: 0;
+  		padding: 1.25em;
+  		margin-right: 100px;
+	} 
+ 	
+}
+
+@media only screen and (max-width: 41.25em) {
+  #imagelightbox-close {
+    top: 1.25em;
+    /* 20 */
+    right: 1.25em;
+    /* 20 */ }
+    
+  #imagelightbox-toggle {
+    top: 4.5em;
+    /* 20 */
+    right: 1.25em;
+    /* 20 */ }  
+}
+
+@media (max-width: 768px) and (min-width: 512px) {
+	.jumbotron h1 {
+		font-size: 2.25em;
+	}
+}
+
+
 
