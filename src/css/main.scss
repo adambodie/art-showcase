@@ -161,14 +161,21 @@ footer {
 	margin-right: auto;
 	max-width: 800px;	
 	padding: 50px;
+	h2 {
+		font-family: $frijole;
+	}
 }
 
 #thoughts {
 	margin-bottom: 100px;
 }
-#initial {
+.initial {
 	padding: 20px;
+	h2 {
+		font-family: $frijole;
+	}
 }
+
 
 #author {
 	max-width: 300px;

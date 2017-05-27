@@ -130,12 +130,16 @@ footer {
   margin-right: auto;
   max-width: 800px;
   padding: 50px; }
+  .about h2 {
+    font-family: "Frijole", cursive; }
 
 #thoughts {
   margin-bottom: 100px; }
 
-#initial {
+.initial {
   padding: 20px; }
+  .initial h2 {
+    font-family: "Frijole", cursive; }
 
 #author {
   max-width: 300px;
