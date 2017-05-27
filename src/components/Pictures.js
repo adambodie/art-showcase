@@ -1,12 +1,11 @@
 import React from 'react'
 import {
-  Route,
   Link
 } from 'react-router-dom'
-import Picture from './Picture.js'
+
 import PictureList from '../data/pictures.js';
 
-const Pictures = ({ match }) => {
+const Pictures = () => {
 	
 	const pictures = Object.keys(PictureList).map(function(key) {
 			return<li key={key} className={`flex-item painting ${PictureList[key].medium} ${PictureList[key].color} ${PictureList[key].types} `}>
@@ -31,7 +30,6 @@ const Pictures = ({ match }) => {
       {pictures}
     </ul>
 
-    <Route path={`${match.url}/:pictureId`} component={Picture}/>
   </div>
   )
 }
