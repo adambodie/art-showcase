@@ -263,7 +263,32 @@ footer {
 	padding: 30px;
 }
 
+/*Error Styles
+-----------------------*/
+.errorPage{
+	height: 500px;
+	h1{
+		text-align: center;
+	}
+}
 
+
+.icn-logo {
+  background: #54606b;
+  color: #fff;
+}
+.icn-logo i {
+  font-size: 2.45em;
+  line-height: 0;
+  margin-top: 30px;
+}
+.icn-error {
+  font-size: 5em;
+  margin-bottom: .25em;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 2em; 
+}
 
 /* Pagination Styles
  ------------------------*/
@@ -487,6 +512,9 @@ h2 {
 /* Query CSS
 ---------------------*/
 @media (min-width: 768px) {
+	.icn-error {
+	  padding: 0 4em; 
+	}
 	.jumbotron h1 {
 		width: 80%;
 		font-size: 64px;
@@ -534,6 +562,9 @@ h2 {
 	.jumbotron h1 {
 		font-size: 2.25em;
 	}
+	.icn-error {
+	  padding: 0 3em; 
+	}	
 }
 
 

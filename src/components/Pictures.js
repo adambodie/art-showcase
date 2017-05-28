@@ -1,23 +1,27 @@
-import React from 'react'
+import React, { Component } from 'react'
 import {
   Link
 } from 'react-router-dom'
 
 import PictureList from '../data/pictures.js';
 
-const Pictures = () => {
-	
+export default class Pictures extends Component {
+
+
+render() {	
 	const pictures = Object.keys(PictureList).map(function(key) {
-			return<li key={key} className={`flex-item painting ${PictureList[key].medium} ${PictureList[key].color} ${PictureList[key].types} `}>
+			return(
+				<li key={key} className={`flex-item painting ${PictureList[key].medium} ${PictureList[key].color} ${PictureList[key].types} `}>
 				<Link to={PictureList[key].image} data-imagelightbox="a">
-			<img src={PictureList[key].image} 
-				 className={`img-responsive center-block ${PictureList[key].medium} ${PictureList[key].color} ${PictureList[key].types} `} 
-				 alt={PictureList[key].title}
-				 value={PictureList[key].description} 
-				 />
-			<h4 className="name">{PictureList[key].title}</h4>
+					<img src={PictureList[key].image} 
+						 className={`img-responsive center-block ${PictureList[key].medium} ${PictureList[key].color} ${PictureList[key].types} `} 
+						 alt={PictureList[key].title}
+						 value={PictureList[key].description} 
+					/>
+					<h4 className="name">{PictureList[key].title}</h4>
 				</Link>
 			</li>
+			)
 		});
 
 	return (
@@ -33,5 +37,4 @@ const Pictures = () => {
   </div>
   )
 }
-
-export default Pictures;
+}
