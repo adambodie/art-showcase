@@ -1,12 +1,27 @@
 import React from 'react'
-
-const Picture = (props) => (
-  <div className="picture">
-    <img src={props.image} className="img-responsive" alt={props.title}/>
-    <div className="paragraph">
-        <h3>{props.title}</h3>
+import {
+  Link
+} from 'react-router-dom'
+const Picture = ({match}) => {
+return(
+  <div className="overlay dialogStyle">
+	<div className="dialogHeader">
+		<h3>{match.params.title}</h3>
+		<Link to={'/pictures'}><button type="button"></button></Link>
+	</div>
+    <div className="dialog">
+    	<div className="dialogImage">
+			<img src={`/img/${match.params.image}`} alt={match.params.title}/>
+		</div>
+		<div className="dialogDescription">
+			<p>Type: {match.params.types}</p>
+			<p>Color: {match.params.color}</p>
+			<p>Medium: {match.params.medium}</p> 
+		</div>
+       
     </div>
   </div>
-)
+  )
+}
 
 export default Picture;

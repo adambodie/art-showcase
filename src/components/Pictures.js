@@ -1,24 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {
-  Link
+  Link, Route
 } from 'react-router-dom'
 
 import PictureList from '../data/pictures.js';
+import Picture from './Picture.js';
 
-export default class Pictures extends Component {
-
-
-render() {	
-	const pictures = Object.keys(PictureList).map(function(key) {
+const Pictures = ({ match }) => {
+	let pictures = Object.keys(PictureList).map(function(key) {
+			let title = PictureList[key].title;
+			let medium = PictureList[key].medium;
+			let color = PictureList[key].color;
+			let types = PictureList[key].types;
+			let image = PictureList[key].image;
 			return(
-				<li key={key} className={`flex-item painting ${PictureList[key].medium} ${PictureList[key].color} ${PictureList[key].types} `}>
-				<Link to={PictureList[key].image} data-imagelightbox="a">
-					<img src={PictureList[key].image} 
-						 className={`img-responsive center-block ${PictureList[key].medium} ${PictureList[key].color} ${PictureList[key].types} `} 
-						 alt={PictureList[key].title}
-						 value={PictureList[key].description} 
+				<li key={key} className='flex-item'>
+				<Link to={`${match.url}/${types}/${color}/${medium}/${title}/${image}`}>
+					<img src={`/img/${image}`} 
+						 className='img-responsive center-block' 
+						 alt={title} 
 					/>
-					<h4 className="name">{PictureList[key].title}</h4>
+					<h4 className="name">{title}</h4>
 				</Link>
 			</li>
 			)
@@ -33,8 +35,10 @@ render() {
     <ul className="list">
       {pictures}
     </ul>
-
+	<Route path={`${match.url}/:types/:color/:medium/:title/:image`} component={Picture}/>
   </div>
   )
 }
-}
+
+
+export default Pictures;

@@ -1,7 +1,7 @@
 const PictureList = [
 {
     title: "Alice Cooper",
-    image: "img/alice-cooper.jpg",
+    image: "alice-cooper.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -10,7 +10,7 @@ const PictureList = [
 },
 {
     title: "Apple",
-    image: "img/apple.jpg",
+    image: "apple.jpg",
     types: "Object",
     color: "Color",
     medium: "Cray-Paz",
@@ -19,7 +19,7 @@ const PictureList = [
 },  
  {
     title: "Area Codes",
-    image: "img/ludacris.jpg",
+    image: "ludacris.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -28,7 +28,7 @@ const PictureList = [
 },
 {
     title: "Art 281 Painting: Restricted Areas",
-    image: "img/pcc1.jpg",
+    image: "pcc1.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -36,7 +36,7 @@ const PictureList = [
     id: 4
 }, {
     title: "Art 281 Painting: Restricted Palette",
-    image: "img/pcc2.jpg",
+    image: "pcc2.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -44,7 +44,7 @@ const PictureList = [
     id: 5
 }, {
     title: "Art 281 Painting: Color Change",
-    image: "img/pcc3.jpg",
+    image: "pcc3.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -52,7 +52,7 @@ const PictureList = [
     id: 6
 }, {
     title: "Art 281 Painting: Imaginary Focus Point",
-    image: "img/pcc4.jpg",
+    image: "pcc4.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -60,7 +60,7 @@ const PictureList = [
     id: 7
 }, {
     title: "Art 281 Painting: Doubling",
-    image: "img/pcc5.jpg",
+    image: "pcc5.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -68,7 +68,7 @@ const PictureList = [
     id: 8
 }, {
     title: "Art 281 Painting: Tripling",
-    image: "img/pcc6.jpg",
+    image: "pcc6.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -76,7 +76,7 @@ const PictureList = [
     id: 9
 }, {
     title: "Art 281 Painting: Doubling",
-    image: "img/pcc7.jpg",
+    image: "pcc7.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -84,7 +84,7 @@ const PictureList = [
     id: 10
 }, {
     title: "Art 281 Painting: The Mothership",
-    image: "img/pcc8.jpg",
+    image: "pcc8.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -92,7 +92,7 @@ const PictureList = [
     id: 11
 }, {
     title: "Asian Elvis",
-    image: "img/asian-elvis.jpg",
+    image: "asian-elvis.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -100,7 +100,7 @@ const PictureList = [
     id: 12
 }, {
     title: "Bald Physic Teachers and Wigs",
-    image: "img/bald-parker.jpg",
+    image: "bald-parker.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -108,7 +108,7 @@ const PictureList = [
     id: 13
 }, {
     title: "Barry White, Baby",
-    image: "img/barry-white.jpg",
+    image: "barry-white.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -116,7 +116,7 @@ const PictureList = [
     id: 14
 }, {
     title: "Beatnuts in a Can",
-    image: "img/beatnuts.jpg",
+    image: "beatnuts.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Color Pastels",
@@ -124,7 +124,7 @@ const PictureList = [
     id: 15
 }, {
     title: "Billy Idol",
-    image: "img/billy-idol.jpg",
+    image: "billy-idol.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -132,7 +132,7 @@ const PictureList = [
     id: 16
 }, {
     title: "Bob Dylan",
-    image: "img/bob-dylan.jpg",
+    image: "bob-dylan.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -140,7 +140,7 @@ const PictureList = [
     id: 17
 }, {
     title: "Bob Knight Near the Chair",
-    image: "img/bob-knight.jpg",
+    image: "bob-knight.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -149,7 +149,7 @@ const PictureList = [
     
 }, {
     title: "Bob Marley",
-    image: "img/bob-marley.jpg",
+    image: "bob-marley.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -157,7 +157,7 @@ const PictureList = [
     id: 19
 }, {
     title: "Bootsy Collins",
-    image: "img/bootsy.jpg",
+    image: "bootsy.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -165,7 +165,7 @@ const PictureList = [
     id: 20
 }, {
     title: "Boredom in Physics",
-    image: "img/boredom.jpg",
+    image: "boredom.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -173,7 +173,7 @@ const PictureList = [
     id: 21
 },  {
     title: "Bounty Hunter",
-    image: "img/bounty-hunter.jpg",
+    image: "bounty-hunter.jpg",
     types: "Fantasy",
     color: "Color",
     medium: "Construction Paper",
@@ -181,7 +181,7 @@ const PictureList = [
     id: 22
 }, {
     title: "Bruce Springsteen in the U.S.A.",
-    image: "img/bruce-springsteen.jpg",
+    image: "bruce-springsteen.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -189,7 +189,7 @@ const PictureList = [
     id: 23
 }, {
     title: "Bubba Sparxxx",
-    image: "img/bubba.jpg",
+    image: "bubba.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -197,7 +197,7 @@ const PictureList = [
     id: 24
 }, {
     title: "Busta Rhymes in mud",
-    image: "img/busta-rhymes.jpg",
+    image: "busta-rhymes.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -206,7 +206,7 @@ const PictureList = [
 }, 
  {
     title: "Carlos Santana",
-    image: "img/santana.jpg",
+    image: "santana.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -215,7 +215,7 @@ const PictureList = [
 }, 
 {
     title: "Cezanne Rock",
-    image: "img/cezanne.jpg",
+    image: "cezanne.jpg",
     types: "Landscape",
     color: "Color",
     medium: "Color Pastels",
@@ -223,7 +223,7 @@ const PictureList = [
     id: 27
 }, {
     title: "Channa Horwitz",
-    image: "img/channa.jpg",
+    image: "channa.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -231,7 +231,7 @@ const PictureList = [
     id: 28
 }, {
     title: "Chris Redfield",
-    image: "img/chris-redfield.jpg",
+    image: "chris-redfield.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Cray-Paz",
@@ -239,7 +239,7 @@ const PictureList = [
     id: 29
 }, {
     title: "Chrono Trigger",
-    image: "img/chrono.jpg",
+    image: "chrono.jpg",
     types: "Fantasy",
     color: "Color",
     medium: "Computer",
@@ -247,7 +247,7 @@ const PictureList = [
     id: 30
 }, {
     title: "Cool Landscape",
-    image: "img/cool.jpg",
+    image: "cool.jpg",
     types: "Landscape",
     color: "Color",
     medium: "Acrylic Paint",
@@ -255,7 +255,7 @@ const PictureList = [
     id: 31
 }, {
     title: "The Cover to my Art Showcase 2 Project",
-    image: "img/cover.jpg",
+    image: "cover.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Computer",
@@ -263,7 +263,7 @@ const PictureList = [
     id: 32
 }, {
     title: "Dad",
-    image: "img/dad.jpg",
+    image: "dad.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -271,7 +271,7 @@ const PictureList = [
     id: 33
 }, {
     title: "Dante the Devil",
-    image: "img/dante.jpg",
+    image: "dante.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Acrylic Paint",
@@ -279,7 +279,7 @@ const PictureList = [
     id: 34
 }, {
     title: "Dark Still Life",
-    image: "img/still-life.jpg",
+    image: "still-life.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Color Pastels",
@@ -287,7 +287,7 @@ const PictureList = [
     id: 35
 }, {
     title: "Dead or Alive",
-    image: "img/dead-or-alive.jpg",
+    image: "dead-or-alive.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Acrylic Paint",
@@ -295,7 +295,7 @@ const PictureList = [
     id: 36
 }, {
     title: "DMX in Denial",
-    image: "img/dmx.jpg",
+    image: "dmx.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -303,7 +303,7 @@ const PictureList = [
     id: 37
 }, {
     title: "Drawn by the Drawer Formerly Known As Adam Bodie",
-    image: "img/prince.jpg",
+    image: "prince.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -311,7 +311,7 @@ const PictureList = [
     id: 38
 }, {
     title: "Ear-Dinner at the Boxing Ring",
-    image: "img/mike-tyson.jpg",
+    image: "mike-tyson.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -319,7 +319,7 @@ const PictureList = [
     id: 39
 }, {
     title: "Edgar the Raven",
-    image: "img/edgar.jpg",
+    image: "edgar.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -327,7 +327,7 @@ const PictureList = [
     id: 40
 }, {
     title: "Elton John",
-    image: "img/elton-john.jpg",
+    image: "elton-john.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -335,7 +335,7 @@ const PictureList = [
     id: 41
 }, {
     title: "F-22 Raptor in the Sky",
-    image: "img/f22-raptor.jpg",
+    image: "f22-raptor.jpg",
     types: "Object",
     color: "Black and White",
     medium: "Charcoal",
@@ -343,7 +343,7 @@ const PictureList = [
     id: 42
 }, {
     title: "F-a-b-o-l-o-u-s",
-    image: "img/fabolous.jpg",
+    image: "fabolous.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -351,7 +351,7 @@ const PictureList = [
     id: 43
 }, {
     title: "Fat Joe the Don Thug",
-    image: "img/fat-joe.jpg",
+    image: "fat-joe.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -359,7 +359,7 @@ const PictureList = [
     id: 44
 }, {
     title: "Fatman",
-    image: "img/fatman.jpg",
+    image: "fatman.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -367,7 +367,7 @@ const PictureList = [
     id: 45
 }, {
     title: "George Harrison",
-    image: "img/george-harrison.jpg",
+    image: "george-harrison.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -375,7 +375,7 @@ const PictureList = [
     id: 46
 }, {
     title: "Grandma Judy",
-    image: "img/judy.jpg",
+    image: "judy.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -383,7 +383,7 @@ const PictureList = [
     id: 47
 }, {
     title: "Halo",
-    image: "img/halo.jpg",
+    image: "halo.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -391,7 +391,7 @@ const PictureList = [
     id: 48
 }, {
     title: "Halo",
-    image: "img/halo2.jpg",
+    image: "halo2.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Cray-Paz",
@@ -399,7 +399,7 @@ const PictureList = [
     id: 49
 }, {
     title: "Henri Matisse in my Jazz",
-    image: "img/henri-matisse.jpg",
+    image: "henri-matisse.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -407,7 +407,7 @@ const PictureList = [
     id: 50
 }, {
     title: "Hideo Kojima",
-    image: "img/kojima.jpg",
+    image: "kojima.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -415,7 +415,7 @@ const PictureList = [
     id: 51
 }, {
     title: "Homer J., Portrait of an A** Grabber",
-    image: "img/homer.jpg",
+    image: "homer.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -424,7 +424,7 @@ const PictureList = [
 }, 
 {
     title: "Humit Man",
-    image: "img/dave.jpg",
+    image: "dave.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -432,7 +432,7 @@ const PictureList = [
     id: 53
 }, {
     title: "Imaginary Paradise",
-    image: "img/paradise.jpg",
+    image: "paradise.jpg",
     types: "Landscape",
     color: "Color",
     medium: "Color Pastels",
@@ -440,7 +440,7 @@ const PictureList = [
     id: 54
 }, {
     title: "Isaac Hayes",
-    image: "img/isaac-hayes.jpg",
+    image: "isaac-hayes.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -448,7 +448,7 @@ const PictureList = [
     id: 55
 }, {
     title: "It's Dark in Here",
-    image: "img/dmx2.jpg",
+    image: "dmx2.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -456,7 +456,7 @@ const PictureList = [
     id: 56
 }, {
     title: "Ivan the Tall",
-    image: "img/ivan.jpg",
+    image: "ivan.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -464,7 +464,7 @@ const PictureList = [
     id: 57
 }, {
     title: "Jacko with the Wacko Face",
-    image: "img/michael-jackson.jpg",
+    image: "michael-jackson.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -472,7 +472,7 @@ const PictureList = [
     id: 58
 }, {
     title: "James Brown with the Lipton",
-    image: "img/james-brown.jpg",
+    image: "james-brown.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -480,7 +480,7 @@ const PictureList = [
     id: 59
 }, {
     title: "Janis Joplin",
-    image: "img/janis-joplin.jpg",
+    image: "janis-joplin.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -488,7 +488,7 @@ const PictureList = [
     id: 60
 }, {
     title: "Jennifer the Toddler",
-    image: "img/jenn.jpg",
+    image: "jenn.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Cray-Paz",
@@ -496,7 +496,7 @@ const PictureList = [
     id: 61
 }, {
     title: "Jethro Tull",
-    image: "img/jethro-tull.jpg",
+    image: "jethro-tull.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -504,7 +504,7 @@ const PictureList = [
     id: 62
 }, {
     title: "Jim Morrison",
-    image: "img/jim-morrison.jpg",
+    image: "jim-morrison.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -512,7 +512,7 @@ const PictureList = [
     id: 63
 }, {
     title: "Jimi Hendrix",
-    image: "img/jimi-hendrix.jpg",
+    image: "jimi-hendrix.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -520,7 +520,7 @@ const PictureList = [
     id: 64
 },{
     title: "John Lennon",
-    image: "img/lennon.jpg",
+    image: "lennon.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -528,7 +528,7 @@ const PictureList = [
     id: 65
 }, {
     title: "Jurassic 5 Hill",
-    image: "img/jurassic.jpg",
+    image: "jurassic.jpg",
     types: "Landscape",
     color: "Color",
     medium: "Cray-Paz",
@@ -536,7 +536,7 @@ const PictureList = [
     id: 66
 }, {
     title: "Kain",
-    image: "img/kain.jpg",
+    image: "kain.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -544,7 +544,7 @@ const PictureList = [
     id: 67
 },  {
     title: "Kareem Suzuki",
-    image: "img/kareem-suzuki.jpg",
+    image: "kareem-suzuki.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -552,7 +552,7 @@ const PictureList = [
     id: 68
 },{
     title: "KD Lang",
-    image: "img/kd-lang.jpg",
+    image: "kd-lang.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -561,7 +561,7 @@ const PictureList = [
 },
  {
     title: "The Legend of Celda",
-    image: "img/zelda.jpg",
+    image: "zelda.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Construction Paper",
@@ -570,7 +570,7 @@ const PictureList = [
 },
 {
     title: "Lunatic Is Going in His Head",
-    image: "img/pink-floyd.jpg",
+    image: "pink-floyd.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -578,7 +578,7 @@ const PictureList = [
     id: 71
 }, {
     title: "Lunatics cause Brain Damage",
-    image: "img/lunatic.jpg",
+    image: "lunatic.jpg",
     types: "Landscape",
     color: "Color",
     medium: "Color Pastels",
@@ -586,7 +586,7 @@ const PictureList = [
     id: 72
 }, {
     title: "Mark Andres",
-    image: "img/mark-andres.jpg",
+    image: "mark-andres.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -594,7 +594,7 @@ const PictureList = [
     id: 73
 }, {
     title: "Marvin Gaye",
-    image: "img/marvin-gaye.jpg",
+    image: "marvin-gaye.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -602,7 +602,7 @@ const PictureList = [
     id: 74
 },  {
     title: "Max Payne",
-    image: "img/max-payne.jpg",
+    image: "max-payne.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -610,7 +610,7 @@ const PictureList = [
     id: 75
 },{
     title: "Method Man a.k.a. A whole bunch of other names",
-    image: "img/method-man.jpg",
+    image: "method-man.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -618,7 +618,7 @@ const PictureList = [
     id: 76
 }, {
     title: "Mmmmm...donut",
-    image: "img/donut.jpg",
+    image: "donut.jpg",
     types: "Object",
     color: "Color",
     medium: "Color Pastels",
@@ -626,7 +626,7 @@ const PictureList = [
     id: 77
 },  {
     title: "Mom",
-    image: "img/mom.jpg",
+    image: "mom.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Pencil",
@@ -634,7 +634,7 @@ const PictureList = [
     id: 78
 },{
     title: "Mr. Biggs",
-    image: "img/ron-isley.jpg",
+    image: "ron-isley.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -642,7 +642,7 @@ const PictureList = [
     id: 79
 }, {
     title: "Mrs. Beasley's Lemon Cake",
-    image: "img/cake.jpg",
+    image: "cake.jpg",
     types: "Object",
     color: "Color",
     medium: "Color Pastels",
@@ -651,7 +651,7 @@ const PictureList = [
 }, 
  {
     title: "Murky School Which Is Crazy and Trying Not to Be Tools of Learning",
-    image: "img/school.jpg",
+    image: "school.jpg",
     types: "Fantasy",
     color: "Color",
     medium: "Color Pastels",
@@ -661,7 +661,7 @@ const PictureList = [
  
  {
     title: "Not a Real Fighter",
-    image: "img/fighter.jpg",
+    image: "fighter.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Acrylic Paint",
@@ -670,7 +670,7 @@ const PictureList = [
 },
 {
     title: "Papa Arthur Pearlstein",
-    image: "img/papa.jpg",
+    image: "papa.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -678,7 +678,7 @@ const PictureList = [
     id: 83
 }, {
     title: "Pete Rock the Soul Brother #1",
-    image: "img/pete-rock.jpg",
+    image: "pete-rock.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -686,7 +686,7 @@ const PictureList = [
     id: 84
 }, {
     title: "Petey Pablo",
-    image: "img/petey-pablo.jpg",
+    image: "petey-pablo.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -694,7 +694,7 @@ const PictureList = [
     id: 85
 }, {
     title: "Pimpin",
-    image: "img/pimpin.jpg",
+    image: "pimpin.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Pencil",
@@ -702,7 +702,7 @@ const PictureList = [
     id: 86
 },  {
     title: "Portrait of a Shady Man",
-    image: "img/kenji.jpg",
+    image: "kenji.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -711,7 +711,7 @@ const PictureList = [
 }, 
  {
     title: "Pratistha the Nepalese friend",
-    image: "img/nepal.jpg",
+    image: "nepal.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -721,7 +721,7 @@ const PictureList = [
 
 {
     title: "Prepare for Doom",
-    image: "img/doom.jpg",
+    image: "doom.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Cray-Paz",
@@ -730,7 +730,7 @@ const PictureList = [
 },
 {
     title: "Private Chuck Scoped for Closeness",
-    image: "img/private-chuck.jpg",
+    image: "private-chuck.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -738,7 +738,7 @@ const PictureList = [
     id: 90
 }, {
     title: "Rallisport Car Near the Mountain",
-    image: "img/rallisport-car.jpg",
+    image: "rallisport-car.jpg",
     types: "Object",
     color: "Color",
     medium: "Color Pastels",
@@ -746,7 +746,7 @@ const PictureList = [
     id: 91
 }, {
     title: "The Realness",
-    image: "img/cormega.jpg",
+    image: "cormega.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -755,7 +755,7 @@ const PictureList = [
 },  
 {
     title: "Restless Man",
-    image: "img/xzibit.jpg",
+    image: "xzibit.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -763,7 +763,7 @@ const PictureList = [
     id: 93
 },{
     title: "Richard Roundtree a.k.a. Shaft",
-    image: "img/shaft.jpg",
+    image: "shaft.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -771,7 +771,7 @@ const PictureList = [
     id: 94
 }, {
     title: "Ryo from Shenmue",
-    image: "img/ryo.jpg",
+    image: "ryo.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -779,7 +779,7 @@ const PictureList = [
     id: 95
 },{
     title: "Samanosuke",
-    image: "img/samanosuke.jpg",
+    image: "samanosuke.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -788,7 +788,7 @@ const PictureList = [
 }, 
 {
     title: "Self-Portrait #1, Adam's the Name (I Look Bored)",
-    image: "img/adam.jpg",
+    image: "adam.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Pencil",
@@ -796,7 +796,7 @@ const PictureList = [
     id: 97
 },  {
     title: "Self Portrait #2: Bored with a ¾ View",
-    image: "img/adam2.jpg",
+    image: "adam2.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Pencil",
@@ -804,7 +804,7 @@ const PictureList = [
     id: 98
 }, {
     title: "Self Portrait #3: Port of a bored view (Now I have Glasses)",
-    image: "img/adam3.jpg",
+    image: "adam3.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Pencil",
@@ -812,7 +812,7 @@ const PictureList = [
     id: 99
 }, {
     title: "Self-Portrait #5, Ready to look at my Painting (Always with a Blank Stare)",
-    image: "img/adam5.jpg",
+    image: "adam5.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Acrylic Paint",
@@ -820,7 +820,7 @@ const PictureList = [
     id: 100
 }, {
     title: "Self Portrait # 6 (Impersonations of Karl Bruillov)",
-    image: "img/sp6.gif",
+    image: "sp6.gif",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -829,7 +829,7 @@ const PictureList = [
 
 }, {
     title: "Self Portrait # 7: Devil vs. Angel",
-    image: "img/sp7.jpg",
+    image: "sp7.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -839,7 +839,7 @@ const PictureList = [
 },  
 {
     title: "Shagadelic Austin Danger Powers Baby",
-    image: "img/austin-powers.jpg",
+    image: "austin-powers.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -847,7 +847,7 @@ const PictureList = [
     id: 103
 }, {
     title: "Sir Auron from FFX",
-    image: "img/auron.jpg",
+    image: "auron.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -855,7 +855,7 @@ const PictureList = [
     id: 104
 }, {
     title: "Steven Tyler",
-    image: "img/steven-tyler.jpg",
+    image: "steven-tyler.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -863,7 +863,7 @@ const PictureList = [
     id: 105
 }, {
     title: "StillNAS",
-    image: "img/nas.jpg",
+    image: "nas.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -871,7 +871,7 @@ const PictureList = [
     id: 106
 }, {
     title: "Sting Like A Bee",
-    image: "img/sting.jpg",
+    image: "sting.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -879,7 +879,7 @@ const PictureList = [
     id: 107
 }, {
     title: "Tidus from FFX",
-    image: "img/tidus.jpg",
+    image: "tidus.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -887,7 +887,7 @@ const PictureList = [
     id: 108
 }, {
     title: "Toejam",
-    image: "img/toejam.jpg",
+    image: "toejam.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -895,7 +895,7 @@ const PictureList = [
     id: 109
 }, {
     title: "Toyota Pod",
-    image: "img/toyota-pod.jpg",
+    image: "toyota-pod.jpg",
     types: "Object",
     color: "Color",
     medium: "Color Pastels",
@@ -903,7 +903,7 @@ const PictureList = [
     id: 110
 }, {
     title: "The Three Terrapins",
-    image: "img/maryland.jpg",
+    image: "maryland.jpg",
     types: "Miscellaneous",
     color: "Color",
     medium: "Acrylic Paint",
@@ -912,7 +912,7 @@ const PictureList = [
 },
 {
     title: "Turok",
-    image: "img/turok.jpg",
+    image: "turok.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -921,7 +921,7 @@ const PictureList = [
 },  
 {
     title: "The Ugly Rapper",
-    image: "img/pretty-ugly.jpg",
+    image: "pretty-ugly.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -930,7 +930,7 @@ const PictureList = [
 },
 {
     title: "Virtua Green Stripe",
-    image: "img/akira.jpg",
+    image: "akira.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -939,7 +939,7 @@ const PictureList = [
 }, 
  {
     title: "Waiting at Lover's Rock",
-    image: "img/sade.jpg",
+    image: "sade.jpg",
     types: "Portrait",
     color: "Black and White",
     medium: "Charcoal",
@@ -949,7 +949,7 @@ const PictureList = [
 
 {
     title: "Warm Landscape",
-    image: "img/warm.jpg",
+    image: "warm.jpg",
     types: "Landscape",
     color: "Color",
     medium: "Acrylic Paint",
@@ -957,7 +957,7 @@ const PictureList = [
     id: 116
 },  {
     title: "Word of Mouf",
-    image: "img/ludacris2.jpg",
+    image: "ludacris2.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",
@@ -966,7 +966,7 @@ const PictureList = [
 }, 
 {
     title: "Yagyuu Juubei",
-    image: "img/yagyuu-juubei.jpg",
+    image: "yagyuu-juubei.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Acrylic Paint",
@@ -974,7 +974,7 @@ const PictureList = [
     id: 118
 }, {
     title: "You Scared?",
-    image: "img/residentevil.jpg",
+    image: "residentevil.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Cray-Paz",
@@ -982,7 +982,7 @@ const PictureList = [
     id: 119
 }, {
     title: "ZZ Top",
-    image: "img/zz-top.jpg",
+    image: "zz-top.jpg",
     types: "Portrait",
     color: "Color",
     medium: "Color Pastels",

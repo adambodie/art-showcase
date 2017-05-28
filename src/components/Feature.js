@@ -24,7 +24,7 @@ export default class Feature extends Component {
 
 	return (
 	<div id="feature">
-		<img src={PictureList[random].image} className="img-responsive" alt={PictureList[random].title} onClick={this.open}/>
+		<img src={`img/${PictureList[random].image}`}  className="img-responsive" alt={PictureList[random].title} onClick={this.open}/>
 		<h3>{PictureList[random].title}</h3>
 		
 		<Modal
@@ -38,7 +38,7 @@ export default class Feature extends Component {
         </div>
             <div className="dialog">
 				<div className="dialogImage">
-					<img src={PictureList[random].image} className="img-responsive" alt={PictureList[random].title}/>
+					<img src={`img/${PictureList[random].image}`} className="img-responsive" alt={PictureList[random].title}/>
 				</div>
 				<div className="dialogDescription">
 					<p>Type: {PictureList[random].types}</p>
