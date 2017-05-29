@@ -2,6 +2,7 @@ import React from 'react'
 import {
   Link
 } from 'react-router-dom'
+
 const Picture = ({match}) => {
 return(
   <div className="overlay dialogStyle">
@@ -17,6 +18,7 @@ return(
 			<p>Type: {match.params.types}</p>
 			<p>Color: {match.params.color}</p>
 			<p>Medium: {match.params.medium}</p> 
+			<p>{match.params.description}</p> 
 		</div>
        
     </div>

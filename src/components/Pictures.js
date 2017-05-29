@@ -13,9 +13,10 @@ const Pictures = ({ match }) => {
 			let color = PictureList[key].color;
 			let types = PictureList[key].types;
 			let image = PictureList[key].image;
+			let description = PictureList[key].description;
 			return(
 				<li key={key} className='flex-item'>
-				<Link to={`${match.url}/${types}/${color}/${medium}/${title}/${image}`}>
+				<Link to={`${match.url}/${types}/${color}/${medium}/${title}/${image}/${description}`}>
 					<img src={`/img/${image}`} 
 						 className='img-responsive center-block' 
 						 alt={title} 
@@ -27,15 +28,11 @@ const Pictures = ({ match }) => {
 		});
 
 	return (
-  <div id="gallery">
-    <h2>Search by Title</h2>
-    <input id="icon" className="search input-lg" placeholder="Search"/>
-    <ul className="pagination"></ul>
-    
+  <div id="gallery">    
     <ul className="list">
       {pictures}
     </ul>
-	<Route path={`${match.url}/:types/:color/:medium/:title/:image`} component={Picture}/>
+	<Route name={`${match.url}/:title`} path={`${match.url}/:types/:color/:medium/:title/:image/:description`} component={Picture} />
   </div>
   )
 }

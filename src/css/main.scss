@@ -123,6 +123,7 @@ footer {
 	display: flex;
 	h3 {
 		width: 98%;
+		font-family: $frijole;
 	}
 	button {
 	width: 2.5em;
@@ -167,66 +168,13 @@ footer {
 .dialogDescription {
 	padding: 20px;
 	width: 50%;
+
+	p {
+		font-weight: bold;
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	}
 }
 
-#imagelightbox {
-  cursor: pointer;
-  position: fixed;
-  z-index: 10000;
-  padding: 0;
-}
-
-#imagelightbox-overlay {
-  
-  position: fixed;
-  z-index: 9998;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; 
-  }
-
-/* "CLOSE" BUTTON */
-#imagelightbox-close {
-	width: 2.5em;
-	height: 2.5em;
-	text-align: left;
-	background-color: #5a5a5a;
-	position: fixed;
-	z-index: 9999;
-	top: 2em;
-	right: 2em;
-	-webkit-transition: color .3s ease;
-	transition: color .3s ease; 
-	&:hover	{
-		background-color: gray;
-	}
-	&:focus {
-		background-color: gray; 
-	}
-	&:before{
-	  width: 2px;
-	  color: #fff;
-	  content: 'x';
-	  font-size: 2.25em;
-	  position: absolute;
-	  top: -25%;
-	  left: 30%;
-	  margin-left: -1px; 	
-	}
-	&:after {
-	  width: 2px;
-	  color: #fff;
-	  content: 'x';
-	  font-size: 2.25em;
-	  position: absolute;
-	  top: -25%;
-	  left: 30%;
-	  margin-left: -1px; 
-	}
-	
- }
- 
  /* About Styles
  --------------------------*/
  .about {
@@ -290,24 +238,7 @@ footer {
   padding: 0 2em; 
 }
 
-/* Pagination Styles
- ------------------------*/
-.pagination>.active>a , .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-	background-color: #D2600A;
-	border-color: #D2600A;
-}
 
-.pagination>li>a {
-	color: #D2600A;
-	border-color: #D2600A;
-}
-
-.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    z-index: 2;
-    color: #D2600A;
-    border-color: #D2600A;
-    background-color: #eee;
-}
 
 /* Gallery CSS
 ----------------------------*/
@@ -396,31 +327,7 @@ h2 {
 }
 
 
-.pagination li {
-	margin: 0!important;
-}
 
-/* IMAGE LIGHTBOX STYLES 
----------------------------*/
-#imagelightbox {
-  cursor: pointer;
-  position: fixed;
-  z-index: 10000;
-  padding: 20px;
-  }
-  
-
-/* CAPTION */
-#imagelightbox-caption {
-  color: black;
-  position: fixed;
-  z-index: 10000;
-  left: 0;
-  bottom: 0;
-  padding: 1em;
-  font-size: 0.9em;
- 
-}  
   
 .picture {
 	position: absolute;
@@ -447,74 +354,6 @@ h2 {
 	right: 0;
 	bottom: 0;
 }
-/* OVERLAY */
-#imagelightbox-overlay {
-  background-image: url("../img/overlay.jpg");
-  position: fixed;
-  z-index: 9998;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; 
-  }
-
-/* "CLOSE" BUTTON */
-#imagelightbox-close {
-  width: 2.5em;
-  height: 2.5em;
-  text-align: left;
-  background-color: #5a5a5a;
-  position: fixed;
-  z-index: 9999;
-  top: 2em;
-  right: 2em;
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease; 
-  }
-  
-#imagelightbox-toggle {
-  width: 2.5em;
-  height: 2.5em;
-  text-align: left;
-  background-color: #5a5a5a;
-  position: fixed;
-  z-index: 9999;
-  top: 5em;
-  right: 2em;
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease; 
-  }  
-
-#imagelightbox-close:hover, #imagelightbox-close:focus, #imagelightbox-toggle:hover, #imagelightbox-toggle:focus {
-  background-color: gray; 
-  }
-
-#imagelightbox-close:before, #imagelightbox-close:after  {
-  width: 2px;
-  color: #fff;
-  content: 'x';
-  font-size: 2.25em;
-  position: absolute;
-  top: -25%;
-  left: 30%;
-  margin-left: -1px; 
-  }
-
-#imagelightbox-toggle:before, #imagelightbox-toggle:after  {
-  width: 2px;
-  color: #fff;
-  content: '+';
-  font-size: 2.25em;
-  position: absolute;
-  top: -15%;
-  left: 25%;
-  margin-left: -1px; 
-  }
-
-
-
-
-
 
 /* Query CSS
 ---------------------*/
@@ -540,30 +379,9 @@ h2 {
 #all {
 	font-size: 1.5em;
 }
-
-/* CAPTION */
-	#imagelightbox-caption {
-  		right: 200px;
-  		left: 0;
-  		padding: 1.25em;
-  		margin-right: 100px;
-	} 
  	
 }
 
-@media only screen and (max-width: 41.25em) {
-  #imagelightbox-close {
-    top: 1.25em;
-    /* 20 */
-    right: 1.25em;
-    /* 20 */ }
-    
-  #imagelightbox-toggle {
-    top: 4.5em;
-    /* 20 */
-    right: 1.25em;
-    /* 20 */ }  
-}
 
 @media (max-width: 768px) and (min-width: 512px) {
 	.jumbotron h1 {
