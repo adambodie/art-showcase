@@ -1,0 +1,19 @@
+@import '_imports.scss';
+
+/* Header styles
+-------------------------*/
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-image: $background-image;
+	padding: 0!important;
+	h1 {
+		font-size: 1em;
+	}
+}
+.logo {
+	width: 15%;
+	height: 15%;
+}

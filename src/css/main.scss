@@ -1,359 +1,49 @@
+@import '_imports.scss';
+@import '_about.scss';
+@import '_header.scss';
+@import '_footer.scss';
+@import '_sidebar.scss';
+@import '_feature.scss';
+@import '_modal.scss';
+@import '_error.scss';
+@import '_pictures.scss';
 
-$background-image: url("../img/background3.jpg");
-$frijole: 'Frijole', cursive;
-
-/* Main styles
--------------------------*/
 
 body {
-  	background-image: $background-image;	
+	background-image: $background-image;
 	background-position: 100%;
 	background-repeat: repeat;
 	color: black;
 	font-family: 'Droid Sans', sans-serif;
 }
 
+.flex-container {
+	display: flex;
+}
+
 h1 {
 	font-family: $frijole;
 }
 
-#index {
+.main {
 	background-image: url("../img/background2.jpg");
 	background-position: center;
 	background-size: cover;
-
 }
 #intro {
 	padding: 20px;
 }
 
-/* Header styles
--------------------------*/
-
-.jumbotron {
+.home {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	background-image: $background-image;
-	padding: 0!important;
-	h1 {
-		font-size: 1.25em;
-		text-align: center;
+	.intro {
+		width: 50%;
 	}
-}
-.logo {
-	width: 20%;
-	height: 20%;
-}
-
-/* Footer styles
--------------------------*/
-footer {
-	height: 10vh;
-	font-family: $frijole;
-	padding: 20px;
-}
-
-
-/* Menu styles
--------------------------*/
-#menu {
-	display: inline-block;
-	margin-left: -20px;
-	li {
-		list-style: none;
-		font-family: 'Frijole', cursive;
-		display: inline-block;
-		vertical-align: top;
-	}
-	a {
-		text-decoration: none;
-		color: black;
+	.feature {
+		width: 50%;
 	}
 }
 
-/* Feature styles
-----------------------*/
-
-#feature{ 
-	img {
-		padding: 10px;
-		display: block;
-		margin: 0 auto;
-		&:hover {
-			transition-duration: 0.5s;
-			transform: scale(1.1, 1.1);
-		}
-	}
-	h3 {
-		font-family: 'Frijole', cursive;
-		margin-bottom: 20px;
-		text-align: center;
-	}
-}
-
-/* Overlay styles
-----------------------*/
-
-.modal-dialog {
-	width: 100%;
-	margin: 0;
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0; 
-}
-
-.dialogStyle {
-    position: fixed;
-    background-image: url("../img/overlay.jpg");
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-    padding: 20px;
-    width: 100%;
-    height: 100%;
-
-}
-
-.dialog {
-	display: flex;
-}
-
-.dialogHeader {
-	display: flex;
-	h3 {
-		width: 98%;
-		font-family: $frijole;
-	}
-	button {
-	width: 2.5em;
-	height: 2.5em;
-	text-align: left;
-	background-color: #5a5a5a;
-	position: fixed;
-	z-index: 9999;
-	top: 2em;
-	right: 2em;
-	-webkit-transition: color .3s ease;
-	transition: color .3s ease; 
-	&:hover	{
-		background-color: gray;
-	}
-	&:focus {
-		background-color: gray; 
-	}
-	&:before{
-	  width: 2px;
-	  color: #fff;
-	  content: 'x';
-	  font-size: 2.25em;
-	  position: absolute;
-	  top: -25%;
-	  left: 30%;
-	  margin-left: -1px; 	
-	}
-	&:after {
-	  width: 2px;
-	  color: #fff;
-	  content: 'x';
-	  font-size: 2.25em;
-	  position: absolute;
-	  top: -25%;
-	  left: 30%;
-	  margin-left: -1px; 
-	}
-	}
-}
-
-.dialogDescription {
-	padding: 20px;
-	width: 50%;
-
-	p {
-		font-weight: bold;
-		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-	}
-}
-
- /* About Styles
- --------------------------*/
- .about {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 800px;	
-	padding: 50px;
-	h2 {
-		font-family: $frijole;
-	}
-}
-
-#thoughts {
-	margin-bottom: 100px;
-}
-.initial {
-	padding: 20px;
-	h2 {
-		font-family: $frijole;
-	}
-}
-
-
-#author {
-	max-width: 300px;
-	float: right;
-	padding: 30px;
-}
-
-#teenager {
-	max-width: 300px;
-	float: left;
-	padding: 30px;
-}
-
-/*Error Styles
------------------------*/
-.errorPage{
-	height: 500px;
-	h1{
-		text-align: center;
-	}
-}
-
-
-.icn-logo {
-  background: #54606b;
-  color: #fff;
-}
-.icn-logo i {
-  font-size: 2.45em;
-  line-height: 0;
-  margin-top: 30px;
-}
-.icn-error {
-  font-size: 5em;
-  margin-bottom: .25em;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 2em; 
-}
-
-
-
-/* Gallery CSS
-----------------------------*/
-
-.list {
-	display: flex;
-	list-style: none;
-	flex-wrap: wrap;
-	li {
-		align-self: center;
-	}
-}
-
-.name {
-	color: black;
-}
-
-#gallery { 
-	ul {
-		li {
-			display: inline-block;
-			margin: 20px; 
-			vertical-align: top;
-			a {
-				text-decoration: none;
-			}
-			p {
-				margin-top: 20px;
-				text-align: center; 
-			}
-			img {
-				width: 150px;
-				display: inline-block;
-			}
-			h4 {
-				max-width: 150px;
-				display: flex;
-				justify-content: center;
-				align-items: center; 	
-			}
-		}
-	}
-}    
-
-h2 {
-	text-align: center;
-}
-
-.search {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-/* Menu CSS
----------------------*/
-
-
-#menu button {
-	background-color:rgba(0,0,0,0);
-	border: none;
-	margin: 0;
-}
-
-.top {
-	vertical-align: top;
-	font-size: 1em;
-
-}
-
-#all {
-	font-size: 1em;
-	padding: 0;
-}
-.sub {
-	font-size: 0.75em;
-}
-
-.supersub {
-	padding-left: 0;
-}
-.supersub li {
-	font-size: 0.6em;
-	display: block!important;
-}
-
-
-
-  
-.picture {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	background-image: url("../img/overlay.jpg");
-}
-.picture img {
-	padding: 20px;
-}
-
-.paragraph {
-	margin-left: 20px;
-}  
-
-
-.overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
 
 /* Query CSS
 ---------------------*/
@@ -374,23 +64,33 @@ h2 {
 			color: black;
 			font-size: 1.5em;
 		}	
-}
+	}
 
-#all {
-	font-size: 1.5em;
-}
- 	
+	#all {
+		font-size: 1.5em;
+	}
 }
 
 
 @media (max-width: 768px) and (min-width: 512px) {
 	.jumbotron h1 {
-		font-size: 2.25em;
+		font-size: 1.75em;
 	}
 	.icn-error {
 	  padding: 0 3em; 
-	}	
+	}
 }
 
+@media (min-width: 512px) {
+	#menu {
+		flex-direction: column;
+	}
+	.sidebar {
+		width: 25%;
+	}
+	.main {
+		width: 50%;
+	}
+}
 
 

@@ -24,7 +24,6 @@ export default class Feature extends Component {
 		  axios.get(pictureData)
 			.then(response => {
 				let random = Math.floor(Math.random() * 120);
-				console.log(random);
 				this.setState({
 					items: response.data[random]
 				});

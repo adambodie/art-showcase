@@ -16,6 +16,6 @@ gulp.task('watch', function() {
   gulp.watch('./src/css/*.scss', ['css']);
 });
 
-gulp.task('default', ['css'], function () {
+gulp.task('default', gulp.series(['css'], function () {
 	console.log("All tasks completed");
-});
+}));

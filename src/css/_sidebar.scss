@@ -1,0 +1,40 @@
+@import '_imports.scss';
+
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: -20px;
+	li {
+		list-style: none;
+		font-family: $frijole;
+		vertical-align: top;
+		font-size: 1em;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	button {
+		background-color:rgba(0,0,0,0);
+		border: none;
+		margin: 0;
+	}	
+}
+
+#all {
+	font-size: 1em;
+	padding: 0;
+}
+.sub {
+	font-size: 0.75em;
+}
+
+.supersub {
+	padding-left: 0;
+}
+.supersub li {
+	font-size: 0.6em;
+	display: block!important;
+}
