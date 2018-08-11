@@ -3,20 +3,17 @@
 	list-style: none;
 	flex-wrap: wrap;
 	li {
-		align-self: center;
+		height: 325px;
 	}
 }
 
-.name {
-	color: black;
-}
 
 #gallery { 
 	ul {
 		li {
-			display: inline-block;
-			margin: 20px; 
-			vertical-align: top;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			a {
 				text-decoration: none;
 			}
@@ -26,13 +23,16 @@
 			}
 			img {
 				width: 150px;
+				margin: 20px; 
 				display: inline-block;
 			}
 			h4 {
-				max-width: 150px;
+				width: 200px;
+				text-align: center;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				color: black;
 			}
 		}
 	}
@@ -57,10 +57,11 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url("../img/overlay.jpg");
+	img {
+		padding: 20px;
+	}
 }
-.picture img {
-	padding: 20px;
-}
+
 
 .paragraph {
 	margin-left: 20px;
@@ -73,4 +74,9 @@ h2 {
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
 }
