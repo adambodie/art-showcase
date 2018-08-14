@@ -105,15 +105,21 @@ footer {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   padding: 20px;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
 
 .dialog {
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .dialogHeader {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .dialogHeader h3 {
-    width: 98%;
     font-family: "Frijole", cursive; }
   .dialogHeader button {
     width: 2.5em;
@@ -153,8 +159,7 @@ footer {
   padding: 20px;
   width: 50%; }
   .dialogDescription p {
-    font-weight: bold;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; }
+    font-family: "Frijole", cursive; }
 
 .errorPage {
   height: 500px; }
@@ -232,7 +237,8 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 1000; }
 
 .pagination {
   display: flex;

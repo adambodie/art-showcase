@@ -47,11 +47,11 @@ export default class PictureList extends Component {
 	
 	render(){
 		let items = this.state.data.map((item, index) => {
-			if (index > this.state.offset && index < this.state.offset + this.props.perPage + 1) {
+			if (index >= this.state.offset && index < this.state.offset + this.props.perPage) {
 				return(
 					<li key={index} className='flex-item'>
-					<Link to={`#`}>
-						<img src={`${item.image}`} 
+					<Link to={`/pictures/${item.link}`}>
+						<img src={`/${item.image}`} 
 							 className='img-responsive center-block' 
 							 alt={item.title} 
 						/>
@@ -62,6 +62,13 @@ export default class PictureList extends Component {
 			}
 			return items;
 		});
+		let routes = this.state.data.map((item, index) => {
+			return(
+			<Route exact path={"/pictures/" + item.link} key={index} render={() => 
+				<Picture title={item.title} image={item.image} types={item.types} color={item.color} medium={item.medium} description={item.description} />
+				}/>
+			)
+		})
 		
 		return (
 			<div id="gallery">    
@@ -79,6 +86,7 @@ export default class PictureList extends Component {
 						   containerClassName={"pagination"}
 						   subContainerClassName={"pages pagination"}
 						   activeClassName={"active"} />
+				<div>{routes}</div>
 			</div>
 		)
 	}

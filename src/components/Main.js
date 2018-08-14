@@ -14,7 +14,7 @@ const Main = () => (
 		<Switch>
 			<Route exact path="/" component={Home}/>
 			<Route path="/about" component={About}/>
-			<Route path="/pictures"  render={() => <PictureList url={'https://raw.githubusercontent.com/adambodie/Art-Showcase/master/data/showcase.json'} perPage={12} />}/>
+			<Route path="/pictures"  render={() => <PictureList url={'https://s3-us-west-2.amazonaws.com/adamsartshowcase.bodiewebdesign.com/data.json'} perPage={12} />}/>
 			<Route component={ErrorPage}/>
 		</Switch>
 	</div>
