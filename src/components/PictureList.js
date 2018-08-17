@@ -81,7 +81,7 @@ export default class PictureList extends Component {
 						   breakClassName={"break-me"}
 						   pageCount={this.state.pageCount}
 						   marginPagesDisplayed={2}
-						   pageRangeDisplayed={12}
+						   pageRangeDisplayed={1}
 						   onPageChange={this.handlePageClick}
 						   containerClassName={"pagination"}
 						   subContainerClassName={"pages pagination"}

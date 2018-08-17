@@ -41,7 +41,6 @@ export default class Feature extends Component {
 			<Modal show={this.state.showModal} onHide={this.close} >
 			<div className="dialogStyle">
 				<div className="dialogHeader">
-					<h3>{this.state.items.title}</h3>
 					<button type="button" onClick={this.close}></button>
 				</div>
 				<div className="dialog">
@@ -49,6 +48,7 @@ export default class Feature extends Component {
 					<img src={this.state.items.image} className="img-responsive" alt={this.state.items.title}/>
 				</div>
 				<div className="dialogDescription">
+					<h3>{this.state.items.title}</h3>
 					<p>Type: {this.state.items.types}</p>
 					<p>Color: {this.state.items.color}</p>
 					<p>Medium: {this.state.items.medium}</p>

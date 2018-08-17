@@ -11,6 +11,7 @@
 		font-family: $frijole;
 		vertical-align: top;
 		font-size: 1em;
+		margin: 10px;
 	}
 	a {
 		text-decoration: none;
@@ -23,18 +24,5 @@
 	}	
 }
 
-#all {
-	font-size: 1em;
-	padding: 0;
-}
-.sub {
-	font-size: 0.75em;
-}
 
-.supersub {
-	padding-left: 0;
-}
-.supersub li {
-	font-size: 0.6em;
-	display: block!important;
-}
+

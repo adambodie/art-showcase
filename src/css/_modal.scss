@@ -19,19 +19,23 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
 
 }
 
+.dialogImage img {
+	width: 300px;
+}
 .dialog {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .dialogHeader {
 	display: flex;
 	justify-content: center;
+	margin-top: -20px;
 	h3 {
 		font-family: $frijole;
 	}
@@ -42,8 +46,8 @@
 		background-color: #5a5a5a;
 		position: fixed;
 		z-index: 9999;
-		top: 2em;
-		right: 2em;
+		top: 1em;
+		right: 1em;
 		-webkit-transition: color .3s ease;
 		transition: color .3s ease; 
 		&:hover	{
@@ -76,9 +80,17 @@
 }
 
 .dialogDescription {
+	padding: 5px;
+	p {
+		line-height: 1.2em;
+	}
+}
+
+
+@media (min-width: 512px) {
+.dialogDescription {
 	padding: 20px;
 	width: 50%;
-	p {
-		font-family: $frijole;
-	}
+}
+
 }
