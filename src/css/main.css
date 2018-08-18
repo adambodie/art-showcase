@@ -1,27 +1,24 @@
 .about {
   display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  margin: 0 auto;
+  padding: 10px; }
   .about h2 {
     font-family: "Frijole", cursive; }
-
-#thoughts {
-  margin-bottom: 100px; }
+  .about #author {
+    max-width: 300px;
+    padding: 30px;
+    float: right; }
+  .about #teenager {
+    max-width: 300px;
+    padding: 30px;
+    float: left; }
 
 .initial {
   padding: 20px; }
   .initial h2 {
     font-family: "Frijole", cursive; }
-
-#author {
-  max-width: 300px;
-  float: right;
-  padding: 30px; }
-
-#teenager {
-  max-width: 300px;
-  float: left;
-  padding: 30px; }
+  .initial img {
+    margin-bottom: 100px; }
 
 /* Header styles
 -------------------------*/
@@ -79,14 +76,13 @@ footer {
 #feature a:hover {
   text-decoration: none; }
 
-.modal-dialog {
-  width: 100%;
-  margin: 0;
+.overlay {
   position: fixed;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0; }
+  z-index: 1000; }
 
 .dialogStyle {
   position: fixed;
@@ -106,46 +102,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
-
-.dialogHeader {
-  display: flex;
-  justify-content: center;
-  margin-top: -20px; }
-  .dialogHeader h3 {
-    font-family: "Frijole", cursive; }
-  .dialogHeader button {
-    width: 2.5em;
-    height: 2.5em;
-    text-align: left;
-    background-color: #5a5a5a;
-    position: fixed;
-    z-index: 9999;
-    top: 1em;
-    right: 1em;
-    -webkit-transition: color .3s ease;
-    transition: color .3s ease; }
-    .dialogHeader button:hover {
-      background-color: gray; }
-    .dialogHeader button:focus {
-      background-color: gray; }
-    .dialogHeader button:before {
-      width: 2px;
-      color: #fff;
-      content: 'x';
-      font-size: 2.25em;
-      position: absolute;
-      top: -25%;
-      left: 30%;
-      margin-left: -1px; }
-    .dialogHeader button:after {
-      width: 2px;
-      color: #fff;
-      content: 'x';
-      font-size: 2.25em;
-      position: absolute;
-      top: -25%;
-      left: 30%;
-      margin-left: -1px; }
 
 .dialogDescription {
   padding: 5px; }
@@ -178,7 +134,7 @@ footer {
   margin-left: auto;
   padding: 0 2em; }
 
-.list {
+#gallery .list {
   display: flex;
   list-style: none;
   flex-wrap: wrap; }
@@ -204,9 +160,6 @@ footer {
     align-items: center;
     color: black; }
 
-h2 {
-  text-align: center; }
-
 .picture {
   position: absolute;
   top: 0;
@@ -218,23 +171,12 @@ h2 {
   .picture img {
     padding: 20px; }
 
-.paragraph {
-  margin-left: 30px; }
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000; }
-
 .pagination {
   display: flex;
   justify-content: center; }
 
 @media (min-width: 769px) {
-  .list li {
+  #gallery .list li {
     height: 325px; }
   #gallery ul li img {
     width: 150px;
@@ -262,7 +204,7 @@ h1 {
   background-size: cover;
   width: 100%; }
 
-#intro {
+.intro p {
   padding: 20px; }
 
 .home {
@@ -285,8 +227,6 @@ h1 {
   #menu a {
     text-decoration: none;
     color: black;
-    font-size: 1.5em; }
-  #all {
     font-size: 1.5em; } }
 
 @media (max-width: 768px) and (min-width: 512px) {

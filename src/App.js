@@ -10,14 +10,15 @@ const ArtShowcase = () => (
 	<div className="container-fluid">
 		<Header/>
 		<Router>
-		<div className="flex-container">
-			<Sidebar />
-			<Main />
-		</div>
+			<div className="flex-container">
+				<Sidebar />
+				<Main />
+			</div>
 		</Router>
 		<Footer/>
 	</div>
 )
+
 export default ArtShowcase
 
 

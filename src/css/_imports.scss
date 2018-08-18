@@ -1,2 +1,14 @@
 $background-image: url("../img/background3.jpg");
 $frijole: 'Frijole', cursive;
+
+
+@mixin floatImage ($float) {
+		max-width: 300px;
+		padding: 30px;
+		float: $float;
+}
+
+@mixin center-image {
+	display: block;
+	margin: 0 auto;
+}

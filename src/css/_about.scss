@@ -1,33 +1,28 @@
 @import '_imports.scss';
 
 .about {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	@include center-image;
+	padding: 10px;
 	h2 {
 		font-family: $frijole;
 	}
+	#author {
+		@include floatImage(right);
+	}
+
+	#teenager {
+		@include floatImage(left);
+	}	
 }
 
-#thoughts {
-	margin-bottom: 100px;
-}
 .initial {
 	padding: 20px;
 	h2 {
 		font-family: $frijole;
 	}
+	img {
+		margin-bottom: 100px;
+	}
 }
 
 
-#author {
-	max-width: 300px;
-	float: right;
-	padding: 30px;
-}
-
-#teenager {
-	max-width: 300px;
-	float: left;
-	padding: 30px;
-}

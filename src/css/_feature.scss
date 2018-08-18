@@ -3,8 +3,7 @@
 #feature{ 
 	img {
 		padding: 10px;
-		display: block;
-		margin: 0 auto;
+		@include center-image;
 		&:hover {
 			transition-duration: 0.5s;
 			transform: scale(1.1, 1.1);
