@@ -3,8 +3,8 @@ import {
   Link, Route
 } from 'react-router-dom'
 import ReactPaginate from 'react-paginate';
+import axios from 'axios';
 import Picture from './Picture.js';
-import $ from 'jquery';
 
 export default class PictureList extends Component {
 	constructor(props) {
@@ -17,20 +17,17 @@ export default class PictureList extends Component {
 	
 
 	loadPhotos() {
-		$.ajax({
-			url      : this.props.url,
-			data     : {limit: this.props.perPage, offset: this.state.offset},
-			dataType : 'json',
-			type     : 'GET',
-
-			success: data => {
-				this.setState({data: data, pageCount: Math.ceil(data.length / this.props.perPage)});
-			},
-
-			error: (xhr, status, err) => {
-				console.error(this.props.url, status, err.toString());
-			}
-		});
+		let pictureData = 'https://raw.githubusercontent.com/adambodie/Art-Showcase/develop/src/data/data.json';
+		  axios.get(pictureData)
+			.then(response => {
+				this.setState({
+					data: response.data,
+					pageCount: Math.ceil(response.data.length / this.props.perPage)
+				});
+			})
+			.catch(error => {
+			  console.log('Error fetching and parsing Items data', error);
+			});
 	}
 	
 	componentDidMount() {

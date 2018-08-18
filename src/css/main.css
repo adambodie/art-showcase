@@ -73,7 +73,11 @@ footer {
 #feature h3 {
   font-family: "Frijole", cursive;
   margin-bottom: 20px;
-  text-align: center; }
+  text-align: center;
+  color: black; }
+
+#feature a:hover {
+  text-decoration: none; }
 
 .modal-dialog {
   width: 100%;
